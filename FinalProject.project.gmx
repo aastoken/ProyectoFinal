@@ -45,6 +45,7 @@
       <sprite>sprites\spr_stairsMiddle</sprite>
       <sprite>sprites\spr_stairsBottom</sprite>
     </sprites>
+    <sprite>sprites\spr_giantWheel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -90,6 +91,7 @@
     <object>objects\objEffects</object>
     <object>objects\objEnemy</object>
     <object>objects\objEnemyStone</object>
+    <object>objects\obj_giantWheel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
