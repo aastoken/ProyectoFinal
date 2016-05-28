@@ -28,7 +28,6 @@ if (key_shoot && canShoot)
 //Animation left-right
 if(hsp!=0)
 {
-    image_xscale = 1;
     dirAim = sign(hsp);
     
     if ( key_run )//Animate faster if running

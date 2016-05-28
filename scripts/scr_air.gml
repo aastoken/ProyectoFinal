@@ -63,4 +63,5 @@ if(grounded)
     else
         sprite_index = sprPlayerLeft;
     state = GROUND;
+    image_xscale = 1;
 }
