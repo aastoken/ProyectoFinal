@@ -3,34 +3,34 @@ scr_get_input();
 
 vdir = key_down - key_up;
 hdir = key_right - key_left;
-vspeed = vdir*5;
-hspeed = hdir*5;
+vsp = vdir*5;
+hsp = hdir*5;
 
 
 //Collisions
 //Horizontal collisions
-if ( place_meeting(x+hspeed,y,obj_Wall) )
+if ( place_meeting(x+hsp,y,obj_Wall) )
 {
-    while(!place_meeting(x+sign(hspeed),y,obj_Wall)) 
-        x+= sign(hspeed);
-    hspeed = 0;
+    while(!place_meeting(x+sign(hsp),y,obj_Wall)) 
+        x+= sign(hsp);
+    hsp = 0;
 }
 
 //Vertical collisions
-if ( place_meeting(x,y+vspeed,obj_Wall) )
+if ( place_meeting(x,y+vsp,obj_Wall) )
 {
-    while(!place_meeting(x,y+sign(vspeed),obj_Wall)) 
-        y+= sign(vspeed);
-    vspeed = 0;
+    while(!place_meeting(x,y+sign(vsp),obj_Wall)) 
+        y+= sign(vsp);
+    vsp = 0;
 }
 
 
 
 //Animation
-if (vspeed != 0)
+if (vsp != 0)
 {
     image_speed = 0.2;
-    if( vspeed > 0)
+    if( vsp > 0)
         sprite_index = sprPlayerDown;
     else
         sprite_index = sprPlayerUp;

@@ -3,14 +3,14 @@
 hdir = key_right - key_left;
 
 //Acceleration
-difSpeedX = hdir*(topSpeed + key_run*runSpeed ) - hspeed;
+difSpeedX = hdir*(topSpeed + key_run*runSpeed ) - hsp;
 difSpeedX = clamp(difSpeedX,-acceleration,acceleration);
-hspeed += difSpeedX;
+hsp += difSpeedX;
 
 //Jumping
 if( key_jump )
 {
-    vspeed = -jumpSpeed;
+    vsp = -jumpSpeed;
     doubleJump = true;
 }
 
@@ -26,10 +26,10 @@ if (key_shoot && canShoot)
 
 
 //Animation left-right
-if(hspeed!=0)
+if(hsp!=0)
 {
     image_xscale = 1;
-    dirAim = sign(hspeed);
+    dirAim = sign(hsp);
     
     if ( key_run )//Animate faster if running
         image_speed = imageSpeed*1.7;
@@ -61,7 +61,7 @@ if ( !grounded )
 //Change to TELEPORT
 if ( place_meeting(x,y,obj_teleport) && key_interact )
 {
-    hspeed = 0;
+    hsp = 0;
     actualTeleport = instance_nearest(x,y,obj_teleport );
     x = actualTeleport.x;
     y = actualTeleport.y;

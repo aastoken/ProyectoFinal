@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>/// Variables
-hspeed = choose(-2, 2);
-image_xscale = sign(hspeed);
+hsp = choose(-2, 2);
+vsp = 0;
+image_xscale = sign(hsp);
 actionRank = 256;
 </string>
           </argument>
@@ -52,12 +53,12 @@ actionRank = 256;
           <argument>
             <kind>1</kind>
             <string>/// Move
-var spacePlayer = sign(-hspeed) * actionRank;
-var collisionWall = place_meeting(x + hspeed, y, obj_Wall);
+var spacePlayer = sign(-hsp) * actionRank;
+var collisionWall = place_meeting(x + hsp, y, obj_Wall);
 var collisionPlayerBack = place_meeting(x + spacePlayer, y, obj_Player);
 if (collisionWall || collisionPlayerBack){
-    hspeed = -hspeed;
-    image_xscale = sign(hspeed);
+    hsp = -hsp;
+    image_xscale = sign(hsp);
 }
 
 // Execute script scrEnemyStep();

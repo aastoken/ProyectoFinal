@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>/// Variables
-hspeed = 0;
+hsp = 0;
+vsp = 0;
 image_speed = 0;
 moveSpeed = 2;
 actionRank = 256;
@@ -56,13 +57,13 @@ actionRank = 256;
 
 var distPlayer = obj_Player.x - x;
 
-if (abs(distPlayer) &lt;= actionRank &amp;&amp; place_meeting(x + distPlayer, y, obj_Player)){
-    hspeed = sign(distPlayer) * moveSpeed;
+if (abs(distPlayer) &lt;= actionRank ){
+    hsp = sign(distPlayer) * moveSpeed;
     image_index = 1;
-    image_xscale = sign(hspeed);
+    image_xscale = sign(hsp);
 }
 else{
-    hspeed = 0;
+    hsp = 0;
     image_index = 0;
 }
 

@@ -33,7 +33,7 @@ if( animOut )
 //Drop down to the ground without activating the jumpAnimation
 if ( !animIn && !animOut )
 {
-    vspeed+=GRAVITY;
+    vsp+=GRAVITY;
     scr_collisions();
     grounded = place_meeting(x,y+1,obj_Wall) ;
     if( grounded)

@@ -20,9 +20,6 @@
       <sprite>sprites\sprArrow</sprite>
       <sprite>sprites\sprYesNo</sprite>
     </sprites>
-    <sprite>sprites\spr_Wall</sprite>
-    <sprite>sprites\spr_pointer</sprite>
-    <sprite>sprites\spr_shot</sprite>
     <sprites name="Player">
       <sprite>sprites\sprPlayerLeft</sprite>
       <sprite>sprites\sprPlayerJump</sprite>
@@ -33,6 +30,9 @@
       <sprite>sprites\spr_playerTeleportOut</sprite>
       <sprite>sprites\spr_playerBell</sprite>
     </sprites>
+    <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_pointer</sprite>
+    <sprite>sprites\spr_shot</sprite>
     <sprite>sprites\Teleport</sprite>
     <sprite>sprites\spr_context_E</sprite>
     <sprite>sprites\sprEnemy</sprite>
@@ -45,6 +45,7 @@
       <sprite>sprites\spr_stairsMiddle</sprite>
       <sprite>sprites\spr_stairsBottom</sprite>
     </sprites>
+    <sprite>sprites\sprite23</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -95,6 +96,7 @@
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
+    <room>rooms\room_enemies</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>

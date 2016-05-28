@@ -31,8 +31,8 @@ canShoot = true;    //Enables shooting
 dirAim = 1;
 
 ///Initial variables
-hspeed = 0;
-vspeed = 0;
+hsp = 0;
+vsp = 0;
 
 //Movement Parameters
 acceleration = 2;   //aceleracion en tierra
@@ -106,6 +106,9 @@ canShoot = true;
             <kind>1</kind>
             <string>//Get the player's input
 scr_get_input();
+
+if ( key_restart )
+    room_goto(room);
 
 switch(state)
 {

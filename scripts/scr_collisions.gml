@@ -1,28 +1,23 @@
 //Horizontal Collisions
-if ( place_meeting( x + hspeed , y , obj_Wall ) )
+if ( place_meeting( x + hsp , y , obj_Wall ) )
 {
-    while ( !place_meeting ( x + sign(hspeed) , y , obj_Wall ) )
+    while ( !place_meeting ( x + sign(hsp) , y , obj_Wall ) )
     {
-        x += sign( hspeed );
+        x += sign( hsp );
     }
-    hspeed = 0;
+    hsp = 0;
 }
-
-// Out room
-var widthPlayer = sign(hspeed) * sprite_get_width(sprPlayerRight) * 0.5;
-var nextPos = x + hspeed + widthPlayer;
-var isOutRoom = nextPos < 0 || nextPos > room_width;
-
-if (isOutRoom)
-    hspeed = 0;
+x += hsp;
 
 //Vertical Collisions
-if ( place_meeting(x,y + vspeed,obj_Wall) )
+if ( place_meeting(x,y + vsp,obj_Wall) )
 {
-    while ( !place_meeting (x,y + sign(vspeed),obj_Wall) )
+    while ( !place_meeting (x,y + sign(vsp),obj_Wall) )
     {
-        y += sign( vspeed );
+        y += sign( vsp );
     }
-    vspeed = 0;
+    vsp = 0;
 }
+
+y += vsp;
 

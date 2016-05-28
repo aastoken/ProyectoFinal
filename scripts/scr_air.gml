@@ -5,23 +5,23 @@ hdir = key_right - key_left;
 //Air Acceleration 
 if ( hdir != 0)
 {
-    diffSpeed = hdir*topSpeed - hspeed;
+    diffSpeed = hdir*topSpeed - hsp;
     diffSpeed = clamp(diffSpeed,-airAcceleration,airAcceleration);
-    hspeed += diffSpeed;
+    hsp += diffSpeed;
 }
 else //Friction
 {
-    friccion = clamp(-hspeed,-airFriction,airFriction);
-    hspeed += friccion;
+    friccion = clamp(-hsp,-airFriction,airFriction);
+    hsp += friccion;
 }
 
 //Gravity
-vspeed += GRAVITY;
+vsp += GRAVITY;
 
 //Double Jump
 if ( key_jump && doubleJump )
 {
-    vspeed = -jumpSpeed;
+    vsp = -jumpSpeed;
     doubleJump = false;
 }
 
@@ -33,18 +33,19 @@ if ( right_wall || left_wall )
     jumpDir = left_wall - right_wall;
     if( key_jump && !hdir  )
     {
-        hspeed = jumpDir*wallJumpSpeed;
-        vspeed = -1.7*jumpSpeed;
+        hsp = jumpDir*wallJumpSpeed;
+        vsp = -1.7*jumpSpeed;
         doubleJump = true;
     }
 }
 
 //Animation
 
-if (hspeed != 0 )
+if (hsp != 0 )
 {
     sprite_index = sprPlayerJump;
-    image_xscale = sign(hspeed);
+    image_xscale = sign(hsp);
+    dirAim = image_xscale;
 }
 else
 {
@@ -57,8 +58,9 @@ else
 grounded = place_meeting(x,y+1,obj_Wall);
 if(grounded)
 {
-    /**ARREGLAR ANIMACION TRAS ATERRIZAR
-    
-    */
+    if (image_xscale = 1 )
+        sprite_index = sprPlayerRight;
+    else
+        sprite_index = sprPlayerLeft;
     state = GROUND;
 }
