@@ -94,8 +94,7 @@
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
-    <room>rooms\roomLevel1</room>
-    <room>rooms\roomLevel2</room>
+    <room>rooms\MainRoom</room>
   </rooms>
   <constants number="4">
     <constant name="GRAVITY">3</constant>
