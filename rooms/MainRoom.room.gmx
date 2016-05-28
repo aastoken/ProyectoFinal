@@ -4,7 +4,7 @@
   <width>3072</width>
   <height>4608</height>
   <vsnap>4</vsnap>
-  <hsnap>8</hsnap>
+  <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
@@ -83,7 +83,7 @@ scrMgrBgSound();</code>
     <instance objName="obj_stairsMiddle" x="488" y="844" name="inst_58F5DE13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairsMiddle" x="488" y="812" name="inst_8DE85F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemy" x="792" y="816" name="inst_C6BA288D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="696" y="784" name="inst_3D50804A" locked="0" code="" scaleX="22" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="392" y="784" name="inst_3D50804A" locked="0" code="" scaleX="3.625" scaleY="0.969696998596191" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="728" y="944" name="inst_90221F59" locked="0" code="" scaleX="24" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="360" y="864" name="inst_FEA73B4E" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1248" y="736" name="inst_A3B3A33E" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
@@ -91,6 +91,7 @@ scrMgrBgSound();</code>
     <instance objName="obj_Wall" x="928" y="624" name="inst_B4FE4C5C" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1104" y="656" name="inst_04FA6345" locked="0" code="" scaleX="10" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemyStone" x="944" y="816" name="inst_D93D96AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="784" y="784" name="inst_D4E5858A" locked="0" code="" scaleX="16.40625" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="984" y="768" w="64" h="32" xo="0" yo="128" id="10000026" name="inst_EC30778D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
