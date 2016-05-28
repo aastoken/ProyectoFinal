@@ -29,7 +29,7 @@ if (key_shoot && canShoot)
 if(hsp!=0)
 {
     dirAim = sign(hsp);
-    
+    image_xscale = 1;
     if ( key_run )//Animate faster if running
         image_speed = imageSpeed*1.7;
     else
