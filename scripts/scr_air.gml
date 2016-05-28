@@ -44,12 +44,12 @@ if ( right_wall || left_wall )
 if (hspeed != 0 )
 {
     sprite_index = sprPlayerJump;
-    image_xscale = -sign(hspeed);
+    image_xscale = sign(hspeed);
 }
 else
 {
     sprite_index = sprPlayerJump;
-    image_xscale = -dirAim;
+    image_xscale = dirAim;
 }
 
 
@@ -57,11 +57,8 @@ else
 grounded = place_meeting(x,y+1,obj_Wall);
 if(grounded)
 {
-    if(dirAim=1)
-    sprite_index=sprPlayerRight
-    else if(image_xscale=-1)
-    sprite_index=sprPlayerLeft
+    /**ARREGLAR ANIMACION TRAS ATERRIZAR
     
-    
+    */
     state = GROUND;
 }

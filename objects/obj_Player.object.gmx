@@ -115,6 +115,8 @@ switch(state)
                     break;
     case TELEPORT:  scr_teleport(); 
                     break;
+    case STAIR:     scr_stair();
+                    break;
     default:        show_debug_message("NO STATE FOUND");
                     break;
 }

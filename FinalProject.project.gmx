@@ -32,7 +32,6 @@
       <sprite>sprites\spr_playerTeleport</sprite>
       <sprite>sprites\spr_playerTeleportOut</sprite>
       <sprite>sprites\spr_playerBell</sprite>
-      <sprite>sprites\spr_bellWave</sprite>
     </sprites>
     <sprite>sprites\Teleport</sprite>
     <sprite>sprites\spr_context_E</sprite>
@@ -63,10 +62,11 @@
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_ground.gml</script>
     <script>scripts\scr_air.gml</script>
-    <script>scripts\scr_collisions.gml</script>
-    <script>scripts\scr_teleport.gml</script>
-    <script>scripts\scrMgrBgSound.gml</script>
+    <script>scripts\scr_stair.gml</script>
     <script>scripts\scr_findLinkTeleport.gml</script>
+    <script>scripts\scr_teleport.gml</script>
+    <script>scripts\scr_collisions.gml</script>
+    <script>scripts\scrMgrBgSound.gml</script>
     <script>scripts\scrEnemyStep.gml</script>
   </scripts>
   <objects name="objects">
@@ -76,12 +76,6 @@
       <object>objects\objYesNo</object>
       <object>objects\objOptionsPersistent</object>
     </objects>
-    <object>objects\obj_Player</object>
-    <object>objects\obj_teleport</object>
-    <object>objects\obj_Wall</object>
-    <object>objects\objEffects</object>
-    <object>objects\objEnemy</object>
-    <object>objects\objEnemyStone</object>
     <objects name="ScenarioObjects">
       <object>objects\obj_columnTop</object>
       <object>objects\obj_column</object>
@@ -90,17 +84,24 @@
       <object>objects\obj_stairsMiddle</object>
       <object>objects\obj_stairsBottom</object>
     </objects>
+    <object>objects\obj_Player</object>
+    <object>objects\obj_teleport</object>
+    <object>objects\obj_Wall</object>
+    <object>objects\objEffects</object>
+    <object>objects\objEnemy</object>
+    <object>objects\objEnemyStone</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
   </rooms>
-  <constants number="4">
+  <constants number="5">
     <constant name="GRAVITY">3</constant>
     <constant name="GROUND">0</constant>
     <constant name="AIR">1</constant>
     <constant name="TELEPORT">2</constant>
+    <constant name="STAIR">3</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

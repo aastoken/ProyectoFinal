@@ -52,11 +52,13 @@ else
 
 //Change state??
 grounded = place_meeting(x,y+1,obj_Wall);
+staired = place_meeting(x,y+1,obj_stairsMiddle);
+//Change to GROUND
 if ( !grounded )
 {
     state = AIR;
 }
-
+//Change to TELEPORT
 if ( place_meeting(x,y,obj_teleport) && key_interact )
 {
     hspeed = 0;
@@ -67,3 +69,6 @@ if ( place_meeting(x,y,obj_teleport) && key_interact )
     state = TELEPORT;
     animIn = true;
 }
+//Change to STAIR
+if ( staired && (key_up||key_down) )
+    state = STAIR;
