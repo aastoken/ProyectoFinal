@@ -73,7 +73,8 @@ if ( place_meeting(x,y,obj_teleport) && key_interact )
 }
 //Change to STAIR
 if ( (stairDown && key_down) || (staired && key_up) )
-{
+{   
+    hsp=0;
     state = STAIR;
     if (!staired)
         verticalCollisions = !(stairDown && key_down)    

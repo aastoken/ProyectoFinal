@@ -3,11 +3,8 @@
 vdir = key_down - key_up;
 vsp = vdir*5;
 //Be able to move right or left if i'm not inside a wall
-if( !place_meeting(x,y,obj_Wall))
-{
+
     hdir = key_right - key_left;
-    hsp = hdir*5;
-}
     
 
 //COLLISIONS__________
