@@ -42,6 +42,7 @@
       <sprite>sprites\spr_stairsMiddle</sprite>
       <sprite>sprites\spr_stairsBottom</sprite>
       <sprite>sprites\spr_trapdoor</sprite>
+      <sprite>sprites\spr_button</sprite>
     </sprites>
     <sprite>sprites\sprNumbers</sprite>
   </sprites>
@@ -67,6 +68,7 @@
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scrMgrBgSound.gml</script>
     <script>scripts\scrEnemyStep.gml</script>
+    <script>scripts\scr_trapdoor.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="menu">
@@ -80,6 +82,7 @@
       <object>objects\obj_stairsMiddle</object>
       <object>objects\obj_stairsBottom</object>
       <object>objects\obj_trapdoor</object>
+      <object>objects\obj_button</object>
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\obj_teleport</object>
