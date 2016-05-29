@@ -1,13 +1,16 @@
 
-scr_get_input();
-
+//Vertical movement
 vdir = key_down - key_up;
-hdir = key_right - key_left;
 vsp = vdir*5;
-hsp = hdir*5;
+//Be able to move right or left if i'm not inside a wall
+if( !place_meeting(x,y,obj_Wall))
+{
+    hdir = key_right - key_left;
+    hsp = hdir*5;
+}
+    
 
-
-//Collisions
+//COLLISIONS__________
 //Horizontal collisions
 if ( place_meeting(x+hsp,y,obj_Wall) )
 {
@@ -15,14 +18,28 @@ if ( place_meeting(x+hsp,y,obj_Wall) )
         x+= sign(hsp);
     hsp = 0;
 }
+x+= hsp;
 
 //Vertical collisions
-if ( place_meeting(x,y+vsp,obj_Wall) )
+if ( vsp >0 && verticalCollisions){
+    if ( place_meeting(x,y+vsp,obj_Wall) )
+    {
+        while(!place_meeting(x,y+sign(vsp),obj_Wall)) 
+            y+= sign(vsp);
+        vsp = 0;
+    }
+}
+//In order to reach the top of the stairs without jumping
+if( !place_meeting(x,y+vsp,obj_stairsMiddle) )
 {
-    while(!place_meeting(x,y+sign(vsp),obj_Wall)) 
+    while( place_meeting(x,y,obj_stairsMiddle) )
         y+= sign(vsp);
     vsp = 0;
 }
+y+=vsp;
+
+//Activates vertical collisions 
+verticalCollisions = !place_meeting(x,y,obj_Wall);
 
 
 
@@ -44,14 +61,11 @@ else
 
 grounded = place_meeting( x,y+1,obj_Wall );
 stair = place_meeting( x,y,obj_stairsMiddle );
-
-
 //Change State
-
 if (!stair && !grounded)
 {
     state = AIR;   
 }
-if (grounded && key_down)
+if (grounded && hdir != 0)
     state = GROUND;
 

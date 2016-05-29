@@ -4,6 +4,7 @@
 //Entering the teleport
 if ( animIn )
 {
+    timeFreeze = true;
     image_speed = 1;
     //Finds the other teleport
     scr_findLinkTeleport(actualTeleport);
@@ -39,6 +40,7 @@ if ( !animIn && !animOut )
     if( grounded)
     {
         state = GROUND;
+        timeFreeze = false;
     }
 }
 

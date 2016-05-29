@@ -32,7 +32,7 @@ scrMgrBgSound();</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -56,30 +56,8 @@ scrMgrBgSound();</code>
     <instance objName="obj_teleport" x="656" y="924" name="inst_CC29E2DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="1032" y="764" name="inst_D31AEAF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="1216" y="636" name="inst_A74C65BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnTop" x="736" y="816" name="inst_CD66D5A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="736" y="880" name="inst_FA02DA15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnBottom" x="736" y="912" name="inst_5192F05A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnBottom" x="880" y="912" name="inst_BA5E0C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnBottom" x="1024" y="912" name="inst_48C68FF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnBottom" x="592" y="912" name="inst_7335A55E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="592" y="880" name="inst_7C4D274D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="880" y="880" name="inst_CA3EE7C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="1024" y="880" name="inst_E3AD8478" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnTop" x="592" y="816" name="inst_BCFB75D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnTop" x="880" y="816" name="inst_77C8DA83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_columnTop" x="1024" y="816" name="inst_186BCC2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="592" y="848" name="inst_17D76853" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="736" y="848" name="inst_B4FB3B2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="880" y="848" name="inst_8CBD95B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_column" x="1024" y="848" name="inst_8890A107" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairsBottom" x="488" y="908" name="inst_C47E27A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairsTop" x="488" y="768" name="inst_CF8595E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairsMiddle" x="488" y="876" name="inst_DBD8CB65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairsMiddle" x="488" y="844" name="inst_58F5DE13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stairsMiddle" x="488" y="812" name="inst_8DE85F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemy" x="800" y="832" name="inst_C6BA288D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEnemyStone" x="944" y="816" name="inst_D93D96AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="352" y="800" name="inst_52FE2991" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEnemyStone" x="944" y="848" name="inst_D93D96AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="352" y="832" name="inst_879417E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="352" y="864" name="inst_069A01D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="352" y="896" name="inst_2E4E38D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -107,9 +85,6 @@ scrMgrBgSound();</code>
     <instance objName="obj_Wall" x="1024" y="928" name="inst_6A827067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1056" y="928" name="inst_273CB0E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="416" y="768" name="inst_C449C201" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="448" y="768" name="inst_81319C64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="480" y="768" name="inst_E733CF89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="512" y="768" name="inst_FEA91BA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="544" y="768" name="inst_0E1844A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="576" y="768" name="inst_65D81F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="608" y="768" name="inst_B5F3512F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -154,9 +129,19 @@ scrMgrBgSound();</code>
     <instance objName="obj_Wall" x="768" y="576" name="inst_35E75631" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="768" y="544" name="inst_F37B9061" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="768" y="512" name="inst_828709AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="352" y="768" name="inst_C62C41C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="768" name="inst_2F3ABC2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="388" y="764" name="inst_52BCACF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsBottom" x="448" y="896" name="inst_152F4D43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsMiddle" x="448" y="864" name="inst_96A42B42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsMiddle" x="448" y="832" name="inst_3AC93935" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsMiddle" x="448" y="800" name="inst_2D32B771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="352" y="768" name="inst_5AB9A1F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="352" y="800" name="inst_DA23B974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsTop" x="448" y="736" name="inst_68AF52CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_stairsMiddle" x="448" y="768" name="inst_CF1389A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="448" y="768" name="inst_51A1D527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="480" y="768" name="inst_D6D57801" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="512" y="768" name="inst_79DB9F3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="352" y="928" w="64" h="32" xo="64" yo="96" id="10000040" name="inst_4BBF225C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -215,10 +200,6 @@ scrMgrBgSound();</code>
     <tile bgName="bgGame" x="352" y="768" w="32" h="32" xo="0" yo="128" id="10000505" name="inst_34C965AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="384" y="768" w="32" h="32" xo="0" yo="128" id="10000506" name="inst_F20D5962" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="768" w="32" h="32" xo="0" yo="128" id="10000507" name="inst_322FFF67" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="448" y="768" w="32" h="32" xo="0" yo="128" id="10000508" name="inst_BA898B9B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="480" y="800" w="32" h="32" xo="0" yo="128" id="10000509" name="inst_85F6482D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="480" y="768" w="32" h="32" xo="0" yo="128" id="10000510" name="inst_AAC04AD8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="512" y="768" w="32" h="32" xo="0" yo="128" id="10000511" name="inst_F491B824" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="544" y="768" w="32" h="32" xo="0" yo="128" id="10000512" name="inst_126B7EE0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="576" y="768" w="32" h="32" xo="0" yo="128" id="10000513" name="inst_E703C279" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="608" y="768" w="32" h="32" xo="0" yo="128" id="10000514" name="inst_55B03245" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -235,6 +216,17 @@ scrMgrBgSound();</code>
     <tile bgName="bgGame" x="960" y="768" w="32" h="32" xo="0" yo="128" id="10000525" name="inst_E911E45B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="992" y="768" w="32" h="32" xo="0" yo="128" id="10000526" name="inst_32E6F80A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="1024" y="768" w="32" h="32" xo="0" yo="128" id="10000527" name="inst_1558E1AD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="448" y="768" w="32" h="32" xo="0" yo="128" id="10000539" name="inst_1A6778E7" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="480" y="768" w="32" h="32" xo="0" yo="128" id="10000540" name="inst_B70EECAA" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="512" y="768" w="32" h="32" xo="0" yo="128" id="10000541" name="inst_0FE23241" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="864" y="800" w="32" h="32" xo="64" yo="64" id="10000554" name="inst_4A1EAA7B" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="864" y="832" w="32" h="32" xo="64" yo="64" id="10000555" name="inst_F94F72AC" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="864" y="864" w="32" h="32" xo="64" yo="64" id="10000556" name="inst_CEE6BAA9" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="864" y="896" w="32" h="32" xo="64" yo="64" id="10000557" name="inst_1167CBDC" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="672" y="800" w="32" h="32" xo="128" yo="64" id="10000558" name="inst_CE9E990E" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="672" y="832" w="32" h="32" xo="128" yo="64" id="10000559" name="inst_68650854" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="672" y="864" w="32" h="32" xo="128" yo="64" id="10000560" name="inst_A79BA7D2" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="672" y="896" w="32" h="32" xo="128" yo="64" id="10000561" name="inst_577039EA" depth="-50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

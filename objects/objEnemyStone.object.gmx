@@ -55,17 +55,19 @@ actionRank = 256;
             <kind>1</kind>
             <string>// Set speed
 
-var distPlayer = obj_Player.x - x;
+distPlayerSqr = sqr(obj_Player.x - x)+ sqr(obj_Player.y - y);
 
-if (abs(distPlayer) &lt;= actionRank ){
-    hsp = sign(distPlayer) * moveSpeed;
+if ( distPlayerSqr &lt;= sqr(actionRank) ){
+    hsp = sign(obj_Player.x - x) * moveSpeed;
     image_index = 1;
-    image_xscale = sign(hsp);
 }
 else{
     hsp = 0;
     image_index = 0;
 }
+if ( hsp != 0)
+    image_xscale = sign(hsp);
+
 
 // Execute script scrEnemyStep();
 scrEnemyStep();

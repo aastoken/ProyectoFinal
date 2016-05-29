@@ -52,7 +52,15 @@ actionRank = 256;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Move
+            <string>
+player = instance_find(obj_Player,0);
+if ( player != noone  )
+{
+    if ( player.timeFreeze )
+        exit;
+}
+
+/// Move
 var spacePlayer = sign(-hsp) * actionRank;
 var collisionWall = place_meeting(x + hsp, y, obj_Wall);
 var collisionPlayerBack = place_meeting(x + spacePlayer, y, obj_Player);

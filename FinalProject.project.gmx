@@ -38,14 +38,10 @@
     <sprite>sprites\sprEnemy</sprite>
     <sprite>sprites\sprEnemyStone</sprite>
     <sprites name="Scenario">
-      <sprite>sprites\spr_columnTop</sprite>
-      <sprite>sprites\spr_column</sprite>
-      <sprite>sprites\spr_columnBottom</sprite>
       <sprite>sprites\spr_stairsTop</sprite>
       <sprite>sprites\spr_stairsMiddle</sprite>
       <sprite>sprites\spr_stairsBottom</sprite>
     </sprites>
-    <sprite>sprites\sprite23</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -78,9 +74,6 @@
       <object>objects\objOptionsPersistent</object>
     </objects>
     <objects name="ScenarioObjects">
-      <object>objects\obj_columnTop</object>
-      <object>objects\obj_column</object>
-      <object>objects\obj_columnBottom</object>
       <object>objects\obj_stairsTop</object>
       <object>objects\obj_stairsMiddle</object>
       <object>objects\obj_stairsBottom</object>

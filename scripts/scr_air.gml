@@ -31,7 +31,7 @@ left_wall = place_meeting(x-1,y,obj_Wall);
 if ( right_wall || left_wall )
 {
     jumpDir = left_wall - right_wall;
-    if( key_jump && !hdir  )
+    if( key_jump && hdir == 0  )
     {
         hsp = jumpDir*wallJumpSpeed;
         vsp = -1.7*jumpSpeed;
@@ -53,6 +53,7 @@ else
     image_xscale = dirAim;
 }
 
+scr_collisions();
 
 //Change state??
 grounded = place_meeting(x,y+1,obj_Wall);

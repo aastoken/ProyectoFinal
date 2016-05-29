@@ -49,11 +49,14 @@ else
     image_index = 0;
 }
 
+scr_collisions();
+
 //Change state??
 grounded = place_meeting(x,y+1,obj_Wall);
-staired = place_meeting(x,y+1,obj_stairsMiddle);
+staired = place_meeting(x,y,obj_stairsMiddle);
+stairDown = place_meeting(x,y+1,obj_stairsMiddle);
 //Change to GROUND
-if ( !grounded )
+if ( !grounded)
 {
     state = AIR;
 }
@@ -69,5 +72,9 @@ if ( place_meeting(x,y,obj_teleport) && key_interact )
     animIn = true;
 }
 //Change to STAIR
-if ( staired && (key_up||key_down) )
+if ( (stairDown && key_down) || (staired && key_up) )
+{
     state = STAIR;
+    if (!staired)
+        verticalCollisions = !(stairDown && key_down)    
+}

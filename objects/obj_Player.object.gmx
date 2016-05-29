@@ -52,6 +52,7 @@ state = GROUND;
 //Animations for teleportation
 animIn = false;
 animOut = false;
+timeFreeze = false;
 
 //Don't Touch these variables.( They re here for calculations ).
 doubleJump = true;
@@ -107,9 +108,11 @@ canShoot = true;
             <string>//Get the player's input
 scr_get_input();
 
+//In case we re stuck
 if ( key_restart )
     room_goto(room);
 
+//Decides which state we are in.
 switch(state)
 {
     case GROUND:    scr_ground();
@@ -124,13 +127,6 @@ switch(state)
                     break;
 }
 
-
-//Shooting
-if( key_shoot &amp;&amp; alarm[0] == -1 )
-    alarm[0] = room_speed/fireRate;
-
-//Gets the collision against walls
-scr_collisions();
 </string>
           </argument>
         </arguments>
@@ -157,8 +153,8 @@ scr_collisions();
 draw_self();
 draw_set_color(c_yellow);
 
-placeX =  room_width - 270;
-placeY =  50;
+placeX =  view_xview[0]+ view_wview[0]-160;
+placeY =  view_yview[0] + 40;
 grounded = place_meeting(x,y+1,obj_Wall);
 if ( state = GROUND)
 draw_text(placeX,placeY,"STATE = GROUND " );
@@ -166,7 +162,10 @@ else if(state = AIR)
 draw_text(placeX,placeY,"STATE = AIR " );
 else if(state = TELEPORT)
 draw_text(placeX,placeY,"STATE = TELEPORT " );
-
+else if(state = STAIR)
+draw_text(placeX,placeY,"STATE = STAIR " );
+else
+draw_text(placeX,placeY,"NO STATE FOUND " );
 </string>
           </argument>
         </arguments>
