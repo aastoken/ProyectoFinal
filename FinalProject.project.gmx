@@ -43,6 +43,7 @@
       <sprite>sprites\spr_stairsBottom</sprite>
       <sprite>sprites\spr_trapdoor</sprite>
     </sprites>
+    <sprite>sprites\sprNumbers</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
