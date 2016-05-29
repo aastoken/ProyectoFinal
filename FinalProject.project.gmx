@@ -68,7 +68,6 @@
     <script>scripts\scr_teleport.gml</script>
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scrMgrBgSound.gml</script>
-    <script>scripts\scrEnemyStep.gml</script>
     <script>scripts\scr_trapdoor.gml</script>
   </scripts>
   <objects name="objects">

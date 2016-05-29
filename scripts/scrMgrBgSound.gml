@@ -8,7 +8,7 @@ switch(room){
         sound = soundMenu;
         break;
     case 2: // Level 1
-        sound = soundBgLvl1;
+        sound = soundBgLvl4;
         break;
     case 3: // Level 2
         sound = soundBgLvl2;

@@ -55,6 +55,8 @@ actionRank = 256;
             <kind>1</kind>
             <string>// Set speed
 
+vsp += GRAVITY;
+
 distPlayerSqr = sqr(obj_Player.x - x)+ sqr(obj_Player.y - y);
 
 if ( distPlayerSqr &lt;= sqr(actionRank) ){
@@ -68,10 +70,8 @@ else{
 if ( hsp != 0)
     image_xscale = sign(hsp);
 
-
-// Execute script scrEnemyStep();
-scrEnemyStep();
-
+    
+scr_collisions();
 </string>
           </argument>
         </arguments>

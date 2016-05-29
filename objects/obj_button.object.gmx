@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_speed=0
 pressed = false;
+
 </string>
           </argument>
         </arguments>
@@ -49,8 +50,13 @@ pressed = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>pressed = false;
-image_index = 0;
+            <string>
+if ( !place_meeting(x,y,obj_Player ) )
+{
+    pressed = false;
+    image_index = 0;
+}
+
 </string>
           </argument>
         </arguments>
@@ -73,12 +79,13 @@ image_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,obj_Player) &amp;&amp; !pressed )
+            <string>if (place_meeting(x,y,obj_Player) )
 {   
     image_index=1
     pressed = true;  
     alarm[0] = room_speed*2;
 }
+
 
 </string>
           </argument>
