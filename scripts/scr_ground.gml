@@ -48,8 +48,15 @@ else
     image_speed = 0;
     image_index = 0;
 }
-
+//Gets collisions
 scr_collisions();
+
+//Escurrise por la trapdoor
+if( place_meeting(x,y,obj_trapdoor ) )
+{
+    while ( place_meeting(x,y,obj_trapdoor ) )
+        y+=1;
+}
 
 //Change state??
 grounded = place_meeting(x,y+1,obj_Wall);

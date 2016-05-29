@@ -141,6 +141,10 @@ scrMgrBgSound();</code>
     <instance objName="obj_Wall" x="512" y="768" name="inst_79DB9F3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="784" y="784" name="inst_8B9C1224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="624" y="736" name="inst_12977848" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objGameManager" x="128" y="112" name="inst_28C4C866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="576" y="752" name="inst_926D69DC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="752" y="752" name="inst_7879A49B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="928" y="752" name="inst_04CE2607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="352" y="928" w="64" h="32" xo="64" yo="96" id="10000040" name="inst_4BBF225C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

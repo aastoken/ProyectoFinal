@@ -45,6 +45,7 @@
       <sprite>sprites\spr_button</sprite>
     </sprites>
     <sprite>sprites\sprNumbers</sprite>
+    <sprite>sprites\sprCheckPoint</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -90,6 +91,8 @@
     <object>objects\objEffects</object>
     <object>objects\objEnemy</object>
     <object>objects\objEnemyStone</object>
+    <object>objects\objGameManager</object>
+    <object>objects\objCheckPoint</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>

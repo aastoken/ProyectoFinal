@@ -1,20 +1,19 @@
-if(place_meeting(obj_Player.x,obj_Player.y,obj_button))
+if( image_index == 0 && obj_button.pressed )
 {
-    while(image_index <=6)
-    {   
-        image_index += 1;
-    }
+    image_speed = 0.5;
+}
+if ( image_index == 6 && !obj_button.pressed )
+    image_speed = -0.5;
+
+
+if ( image_speed > 0 )
+{
+    if ( image_index >= 6)
+        image_speed = 0;
+}
+else if ( image_speed < 0) 
+{
+    if ( image_index <= 0)
+        image_speed = 0;
 }
 
-if(!place_meeting(obj_Player.x,obj_Player.y,obj_button))
-{
-    if(image_index==6)
-    {
-      while(image_index>=0)
-      {
-        image_index -=1;
-        
-      }  
-    }   
-    
-}

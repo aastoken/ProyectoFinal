@@ -15,9 +15,6 @@ else //Friction
     hsp += friccion;
 }
 
-//Gravity
-vsp += GRAVITY;
-
 //Double Jump
 if ( key_jump && doubleJump )
 {
@@ -38,6 +35,12 @@ if ( right_wall || left_wall )
         doubleJump = true;
     }
 }
+
+//Gravity and Wall friction
+if ( (right_wall || left_wall) && vsp > 0)
+    vsp += GRAVITY/3;
+else
+    vsp += GRAVITY;
 
 //Animation
 
