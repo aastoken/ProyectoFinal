@@ -41,6 +41,7 @@
       <sprite>sprites\spr_stairsTop</sprite>
       <sprite>sprites\spr_stairsMiddle</sprite>
       <sprite>sprites\spr_stairsBottom</sprite>
+      <sprite>sprites\spr_trapdoor</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -77,6 +78,7 @@
       <object>objects\obj_stairsTop</object>
       <object>objects\obj_stairsMiddle</object>
       <object>objects\obj_stairsBottom</object>
+      <object>objects\obj_trapdoor</object>
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\obj_teleport</object>
@@ -86,10 +88,10 @@
     <object>objects\objEnemyStone</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_enemies</room>
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
+    <room>rooms\room_enemies</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>
