@@ -43,6 +43,7 @@
       <sprite>sprites\spr_stairsBottom</sprite>
       <sprite>sprites\spr_trapdoor</sprite>
       <sprite>sprites\spr_button</sprite>
+      <sprite>sprites\spr_metalDoor</sprite>
     </sprites>
     <sprite>sprites\sprNumbers</sprite>
     <sprite>sprites\sprCheckPoint</sprite>
@@ -84,6 +85,7 @@
       <object>objects\obj_stairsBottom</object>
       <object>objects\obj_trapdoor</object>
       <object>objects\obj_button</object>
+      <object>objects\obj_metalDoor</object>
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\obj_teleport</object>
