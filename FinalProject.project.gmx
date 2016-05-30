@@ -103,6 +103,7 @@
     <room>rooms\MainRoom</room>
     <room>rooms\room_enemies</room>
     <room>rooms\FinalBoss</room>
+    <room>rooms\ResolutionRoom</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>
