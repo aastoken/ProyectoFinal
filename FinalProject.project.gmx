@@ -75,6 +75,7 @@
       <object>objects\objStartMenu</object>
       <object>objects\objOptionsMenu</object>
       <object>objects\objYesNo</object>
+      <object>objects\objMenuEffects</object>
       <object>objects\objOptionsPersistent</object>
     </objects>
     <objects name="ScenarioObjects">
@@ -92,12 +93,14 @@
     <object>objects\objEnemyStone</object>
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
+    <object>objects\objFinalBossBlend</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
     <room>rooms\room_enemies</room>
+    <room>rooms\FinalBoss</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>
