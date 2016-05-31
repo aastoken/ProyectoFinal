@@ -53,7 +53,7 @@ scrMgrBgSound();</code>
   </views>
   <instances>
     <instance objName="objGameManager" x="1328" y="1360" name="inst_28C4C866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="1168" y="3376" name="inst_C64A0EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="1168" y="3456" name="inst_C64A0EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="0" y="3472" name="inst_CC99EB96" locked="0" code="" scaleX="76" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2400" y="1040" name="inst_BCCBCDD4" locked="0" code="" scaleX="1" scaleY="76" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="0" y="1040" name="inst_D6DE3448" locked="0" code="" scaleX="1" scaleY="76" colour="4294967295" rotation="0"/>
@@ -232,6 +232,8 @@ scrMgrBgSound();</code>
     <instance objName="obj_Wall" x="672" y="3312" name="inst_E6823996" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="704" y="3312" name="inst_A853A0A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="736" y="3312" name="inst_3F1D1BC5" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEnemy" x="1376" y="3440" name="inst_33ED35F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEnemyStone" x="656" y="3280" name="inst_5F72E1B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="32" y="3472" w="32" h="32" xo="64" yo="256" id="10000734" name="inst_11F4223E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
