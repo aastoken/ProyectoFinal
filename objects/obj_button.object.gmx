@@ -51,7 +51,7 @@ pressed = false;
           <argument>
             <kind>1</kind>
             <string>
-if ( !place_meeting(x,y,obj_Player ) )
+if ( !place_meeting(x,y,obj_Player ) || !place_meeting(x,y,objEnemyStone))
 {
     pressed = false;
     image_index = 0;
@@ -79,7 +79,7 @@ if ( !place_meeting(x,y,obj_Player ) )
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (place_meeting(x,y,obj_Player) )
+            <string>if (place_meeting(x,y,obj_Player) || place_meeting(x,y,objEnemyStone) )
 {   
     image_index=1
     pressed = true;  
