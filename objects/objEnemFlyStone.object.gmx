@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>objEnemy</parentName>
+  <parentName>obj_Wall</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,15 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Variables
-hsp = 0;
-vsp = 0;
-image_speed = 0;
-moveSpeed = 2;
-actionRank = 256;
-
-stoneTime = 2;      //Tiempo que se queda petrificado cuando hit el sonido
-stayStoned = false; 
+            <string>image_speed = 0;
+move = true;
+w= 0.5;
+radio = 15;
+time = 0;
 </string>
           </argument>
         </arguments>
@@ -56,7 +52,7 @@ stayStoned = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stayStoned = false;
+            <string>move = true;
 </string>
           </argument>
         </arguments>
@@ -80,46 +76,31 @@ stayStoned = false;
           <argument>
             <kind>1</kind>
             <string>
-//Gravity
-vsp += GRAVITY;
+x = xstart + radio*cos(w*time);
+y = ystart + radio*sin(w*time);
 
-//Calculate distance to player
-player = instance_find(obj_Player,0);
-if( player != noone){
-distPlayerSqr = sqr(obj_Player.x - x)+ sqr(obj_Player.y - y);
-
-
-if ( distPlayerSqr &lt; sqr(actionRank) )//Follow state
+if ( place_meeting(x,y,objEffects) || !move )
 {
-    if ( place_meeting(x,y,objEffects) || stayStoned )//Hit by the bell
-    {
-        hsp = 0;
-        if ( alarm[0] == -1)
-            alarm[0] = room_speed*stoneTime;
-        stayStoned = true;
-    }
-    else
-    {
-        hsp = sign(obj_Player.x - x) * moveSpeed;
-    }
-}
-else    //Not follow state
-{
-    hsp = 0;
-}
-}
-//Animation
-if ( hsp != 0)
-{
-    image_xscale = sign(hsp);
-    image_index = 1;
-}
-else
-{
+    if(alarm[0] == -1)
+        alarm[0] = room_speed*5;
+    move = false;
     image_index = 0;
 }
-   
-scr_collisions();
+else
+{   
+    image_index = 1;
+    time+=1
+    move = true;
+}
+
+if( place_meeting(x,y,obj_Player) )
+{
+    with(obj_Player)
+    {
+        instance_destroy();
+    }
+}
+
 </string>
           </argument>
         </arguments>

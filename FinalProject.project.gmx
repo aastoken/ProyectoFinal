@@ -96,6 +96,7 @@
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalBossBlend</object>
+    <object>objects\objEnemFlyStone</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_enemies</room>
