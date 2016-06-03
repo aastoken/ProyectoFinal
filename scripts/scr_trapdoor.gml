@@ -9,7 +9,7 @@ if( image_index == 0 && button.pressed )
     image_speed = 0.5;
 }
 //if opened and button not pressed
-else if ( (image_index == image_number-1) && !button.pressed )
+else if ( (image_index == image_number-1) && close && !button.pressed )
 {
     //Close animation
     image_speed = -0.5;
@@ -19,7 +19,10 @@ else if ( (image_index == image_number-1) && !button.pressed )
 if ( image_speed > 0 )//Opening animation
 {
     if ( image_index >= (image_number-1) )
+        {
         image_speed = 0;
+        alarm[0] = argument0;
+        }
 }
 if ( image_speed < 0)//Closing animation
 {

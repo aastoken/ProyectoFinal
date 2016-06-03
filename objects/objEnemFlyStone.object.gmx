@@ -27,8 +27,8 @@
             <kind>1</kind>
             <string>image_speed = 0;
 move = true;
-w= 0.5;
-radio = 15;
+w= 0.15;
+radio = 200;
 time = 0;
 </string>
           </argument>
@@ -75,9 +75,11 @@ time = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
-x = xstart + radio*cos(w*time);
-y = ystart + radio*sin(w*time);
+            <string>vsp = w*radio*cos(w*time);
+hsp = -w*radio*sin(w*time);
+
+x = xstart + hsp;
+y = ystart + vsp;
 
 if ( place_meeting(x,y,objEffects) || !move )
 {

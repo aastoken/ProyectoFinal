@@ -96,6 +96,7 @@ if( actualTeleport != noone &amp;&amp; enableTeleport )
     }
 }
 
+
 </string>
           </argument>
         </arguments>
