@@ -47,6 +47,8 @@
     </sprites>
     <sprite>sprites\sprNumbers</sprite>
     <sprite>sprites\sprCheckPoint</sprite>
+    <sprite>sprites\sprVolt</sprite>
+    <sprite>sprites\sprHorizontalShootingEnemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -97,6 +99,8 @@
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalBossBlend</object>
     <object>objects\objEnemFlyStone</object>
+    <object>objects\objHorizontalShootingAI</object>
+    <object>objects\objVolt</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_enemies</room>
