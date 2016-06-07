@@ -54,7 +54,7 @@
     <sprite>sprites\sprIceBlock</sprite>
     <sprite>sprites\spr_SpinningBlade</sprite>
     <sprite>sprites\sprMagmaEnemy</sprite>
-    <sprite>sprites\sprSolidifiedMagmaEnemy</sprite>
+    <sprite>sprites\sprSolidMagmaEnemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -98,7 +98,6 @@
       <object>objects\obj_teleport</object>
       <object>objects\objIceBlock</object>
     </objects>
-    <object>objects\obj_Player</object>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
       <object>objects\objEnemy</object>
@@ -108,6 +107,7 @@
       <object>objects\objVolt</object>
       <object>objects\objEnemFlyStone</object>
     </objects>
+    <object>objects\obj_Player</object>
     <object>objects\objEffects</object>
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
