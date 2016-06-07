@@ -54,7 +54,6 @@
     <instance objName="obj_Player" x="496" y="64" name="inst_43AEA041" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGameManager" x="96" y="64" name="inst_48225C53" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="295" y="711" name="inst_0E74693B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objFinalBossBlend" x="288" y="192" name="inst_FA894571" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="0" y="0" name="inst_921992AD" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="32" y="736" name="inst_9AAA8E29" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="992" y="0" name="inst_FA43009B" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
