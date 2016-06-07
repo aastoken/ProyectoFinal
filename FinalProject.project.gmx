@@ -54,7 +54,11 @@
     <sprite>sprites\sprIceBlock</sprite>
     <sprite>sprites\spr_SpinningBlade</sprite>
     <sprite>sprites\sprMagmaEnemy</sprite>
-    <sprite>sprites\sprSolidifiedMagmaEnemy</sprite>
+    <sprite>sprites\sprSolidMagmaEnemy</sprite>
+    <sprite>sprites\sprRoomPuzzle</sprite>
+    <sprite>sprites\sprRoomPuzzleBlock</sprite>
+    <sprite>sprites\sprRoomPuzzleFrame</sprite>
+    <sprite>sprites\sprite34</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -98,7 +102,6 @@
       <object>objects\obj_teleport</object>
       <object>objects\objIceBlock</object>
     </objects>
-    <object>objects\obj_Player</object>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
       <object>objects\objEnemy</object>
@@ -108,19 +111,26 @@
       <object>objects\objVolt</object>
       <object>objects\objEnemFlyStone</object>
     </objects>
+    <objects name="RoomPuzzle">
+      <object>objects\objRoomPuzzleController</object>
+      <object>objects\objRoomPuzzleBlock</object>
+      <object>objects\objRoomPuzzleFrame</object>
+      <object>objects\objRoomPuzzle</object>
+    </objects>
+    <object>objects\obj_Player</object>
     <object>objects\objEffects</object>
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalBossBlend</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\ResolutionRoom</room>
     <room>rooms\room_enemies</room>
     <room>rooms\room_walljump</room>
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
     <room>rooms\FinalBoss</room>
-    <room>rooms\ResolutionRoom</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>
