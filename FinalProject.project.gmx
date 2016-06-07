@@ -40,6 +40,8 @@
       <sprite>sprites\Teleport</sprite>
       <sprite>sprites\spr_context_E</sprite>
       <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\sprLava</sprite>
+      <sprite>sprites\spr_spikes</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\spr_shot</sprite>
@@ -59,7 +61,6 @@
     <sprite>sprites\sprRoomPuzzleBlock</sprite>
     <sprite>sprites\sprRoomPuzzleFrame</sprite>
     <sprite>sprites\sprite34</sprite>
-    <sprite>sprites\sprLava</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -104,6 +105,7 @@
       <object>objects\obj_teleport</object>
       <object>objects\objIceBlock</object>
       <object>objects\obj_lava</object>
+      <object>objects\obj_spikes</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
