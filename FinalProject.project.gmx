@@ -43,6 +43,7 @@
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\spr_shot</sprite>
+      <sprite>sprites\sprVoltMiddle</sprite>
       <sprite>sprites\sprVolt</sprite>
     </sprites>
     <sprite>sprites\sprEnemy</sprite>
@@ -52,7 +53,8 @@
     <sprite>sprites\sprHorizontalShootingEnemy</sprite>
     <sprite>sprites\sprIceBlock</sprite>
     <sprite>sprites\spr_SpinningBlade</sprite>
-    <sprite>sprites\sprVoltMiddle</sprite>
+    <sprite>sprites\sprMagmaEnemy</sprite>
+    <sprite>sprites\sprSolidifiedMagmaEnemy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
