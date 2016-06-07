@@ -64,7 +64,7 @@
     <background>background\bgStartMenu</background>
     <background>background\bgOptionsMenu</background>
     <background>background\bgGame</background>
-    <background>background\bg_Main</background>
+    <background>background\bg_main</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
