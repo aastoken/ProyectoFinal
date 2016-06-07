@@ -59,6 +59,7 @@
     <sprite>sprites\sprRoomPuzzleBlock</sprite>
     <sprite>sprites\sprRoomPuzzleFrame</sprite>
     <sprite>sprites\sprite34</sprite>
+    <sprite>sprites\sprLava</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -102,6 +103,7 @@
       <object>objects\obj_Wall</object>
       <object>objects\obj_teleport</object>
       <object>objects\objIceBlock</object>
+      <object>objects\obj_lava</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
@@ -125,8 +127,8 @@
     <object>objects\objFinalBossBlend</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\ResolutionRoom</room>
     <room>rooms\room_enemies</room>
+    <room>rooms\ResolutionRoom</room>
     <room>rooms\room_walljump</room>
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
