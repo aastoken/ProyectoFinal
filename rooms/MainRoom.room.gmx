@@ -264,6 +264,7 @@ scrMgrBgSound();</code>
     <instance objName="obj_stairsMiddle" x="1312" y="2416" name="inst_A302EADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairsTop" x="1072" y="2384" name="inst_E927F684" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stairsTop" x="1312" y="2384" name="inst_FF724C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="944" y="2416" name="inst_226101CB" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="32" y="3472" w="32" h="32" xo="64" yo="256" id="10000734" name="inst_11F4223E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
