@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>hsp = 0;
 vsp = 0;
+first = true;
+
+
 </string>
           </argument>
         </arguments>
@@ -50,13 +53,21 @@ vsp = 0;
           <argument>
             <kind>1</kind>
             <string>
-puzzleRoom = instance_position(x,y,objRoomPuzzle);
+puzzleRoom = instance_position(x + sprite_width/2,y+sprite_height/2,objRoomPuzzle);
 
-hsp = puzzleRoom.hsp;
-vsp = puzzleRoom.vsp;
+if(puzzleRoom != noone){
 
-x+= hsp;
-y+= vsp;
+    if ( first )   //Only executed the first time
+    {    
+        xconst = x - puzzleRoom.x;
+        yconst = y - puzzleRoom.y;
+        first = false;
+    }  
+    
+    x = puzzleRoom.x + xconst;
+    y = puzzleRoom.y + yconst;
+}
+
 </string>
           </argument>
         </arguments>

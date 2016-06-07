@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>objRoomPuzzleFrame</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>hsp = 0;
 vsp = 0;
+radio = 100; 
 </string>
           </argument>
         </arguments>
@@ -49,7 +50,47 @@ vsp = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>
+distanceSqr = sqr(mouse_x - x) + sqr(mouse_y - y);
+
+if ( (sqr(radio) &gt; distanceSqr ) &amp;&amp; mouse_check_button_pressed( mb_right) )
+{
+    right = !place_meeting(x+1,y,objRoomPuzzleFrame);
+    left = !place_meeting(x-1,y,objRoomPuzzleFrame);
+    up = !place_meeting(x,y-1,objRoomPuzzleFrame);
+    down = !place_meeting(x,y+1,objRoomPuzzleFrame);
+    hdir = right - left;
+    vdir = down - up;
+    
+    hsp = hdir*5;
+    vsp = vdir*5;    
+}
+
+
+
+//Collisions___________
+if ( place_meeting(x+hsp,y,objRoomPuzzleFrame ) )
+{
+    while( !place_meeting(x+sign(hsp),y,objRoomPuzzleFrame) )
+    {
+        x+=sign(hsp);
+    }
+    hsp = 0;
+}
+x+=hsp;
+
+if ( place_meeting(x,y + vsp,objRoomPuzzleFrame ) )
+{
+    while( !place_meeting(x,y+sign(vsp),objRoomPuzzleFrame) )
+    {
+        y+=sign(vsp);
+    }
+    vsp = 0;
+}
+
+y+=vsp;
+
+</string>
           </argument>
         </arguments>
       </action>

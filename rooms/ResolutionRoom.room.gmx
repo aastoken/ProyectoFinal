@@ -51,29 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="objRoomPuzzleFrame" x="160" y="64" name="inst_259B4B15" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleFrame" x="736" y="96" name="inst_E7D2EC20" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleFrame" x="160" y="672" name="inst_829E94FD" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleFrame" x="128" y="96" name="inst_3739C921" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="768" y="640" name="inst_72C4E784" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="768" y="672" name="inst_DB4E93A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="800" y="672" name="inst_D84C8182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="832" y="672" name="inst_6D3C69E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="864" y="672" name="inst_8522F029" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="896" y="672" name="inst_C78BC442" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="928" y="672" name="inst_73CC2B06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="960" y="672" name="inst_245BBFED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="672" name="inst_64FC2E2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="640" name="inst_6BC655EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="608" name="inst_D971ACFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="352" name="inst_DD176CC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="384" name="inst_49B0A7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="416" name="inst_CF965A57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="448" name="inst_7BE895B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="480" name="inst_2CFBAB11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="512" name="inst_EFB1FCF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="544" name="inst_134A09EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleBlock" x="992" y="576" name="inst_A7D511A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Player" x="928" y="640" name="inst_876A705D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleController" x="864" y="672" name="inst_3A9E75D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzle" x="256" y="192" name="inst_1FE21F7D" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
@@ -114,6 +91,29 @@
     <instance objName="objRoomPuzzleBlock" x="160" y="128" name="inst_4836F385" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleBlock" x="192" y="128" name="inst_DC936088" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleBlock" x="192" y="96" name="inst_7D2E9EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleFrame" x="160" y="64" name="inst_259B4B15" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleFrame" x="736" y="96" name="inst_E7D2EC20" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleFrame" x="160" y="672" name="inst_829E94FD" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleFrame" x="128" y="96" name="inst_3739C921" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="768" y="640" name="inst_72C4E784" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="768" y="672" name="inst_DB4E93A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="800" y="672" name="inst_D84C8182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="832" y="672" name="inst_6D3C69E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="864" y="672" name="inst_8522F029" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="896" y="672" name="inst_C78BC442" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="928" y="672" name="inst_73CC2B06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="960" y="672" name="inst_245BBFED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="672" name="inst_64FC2E2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="640" name="inst_6BC655EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="608" name="inst_D971ACFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="352" name="inst_DD176CC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="384" name="inst_49B0A7ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="416" name="inst_CF965A57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="448" name="inst_7BE895B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="480" name="inst_2CFBAB11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="512" name="inst_EFB1FCF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="544" name="inst_134A09EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleBlock" x="992" y="576" name="inst_A7D511A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
