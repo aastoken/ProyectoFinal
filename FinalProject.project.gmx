@@ -47,6 +47,7 @@
     </sprites>
     <sprite>sprites\sprNumbers</sprite>
     <sprite>sprites\sprCheckPoint</sprite>
+    <sprite>sprites\spr_SpinningBlade</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -97,6 +98,7 @@
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalBossBlend</object>
     <object>objects\objEnemFlyStone</object>
+    <object>objects\obj_SpinningBlade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_enemies</room>
