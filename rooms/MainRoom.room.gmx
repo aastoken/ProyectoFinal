@@ -1513,7 +1513,6 @@
     <tile bgName="bgGame" x="832" y="3488" w="32" h="32" xo="32" yo="32" id="10002037" name="inst_7335F030" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="832" y="3264" w="32" h="32" xo="32" yo="32" id="10002038" name="inst_30361670" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="832" y="3296" w="32" h="32" xo="32" yo="32" id="10002040" name="inst_D2EC3DBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="832" y="3328" w="32" h="32" xo="32" yo="32" id="10002041" name="inst_1713E19F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="832" y="3456" w="32" h="32" xo="32" yo="32" id="10002045" name="inst_A74E8603" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="3200" w="32" h="32" xo="32" yo="32" id="10002047" name="inst_EC2FDA9E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="3168" w="32" h="32" xo="32" yo="32" id="10002048" name="inst_22528C9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
