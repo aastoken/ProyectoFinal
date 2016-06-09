@@ -29,6 +29,7 @@
 hsp = choose(-3, 3);
 vsp = 0;
 shake = false;
+image_speed=0.2
 
 //Variable for vibration equation ( x = A*sin(w*time) )
 A = 2;      //Amplitud

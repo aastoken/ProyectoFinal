@@ -29,6 +29,7 @@
       <sprite>sprites\spr_playerTeleport</sprite>
       <sprite>sprites\spr_playerTeleportOut</sprite>
       <sprite>sprites\spr_playerBell</sprite>
+      <sprite>sprites\spr_playerDoor</sprite>
     </sprites>
     <sprites name="Scenario">
       <sprite>sprites\spr_stairsTop</sprite>
@@ -42,6 +43,7 @@
       <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\sprLava</sprite>
       <sprite>sprites\spr_spikes</sprite>
+      <sprite>sprites\spr_invisibleBlock</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\sprVoltMiddle</sprite>
@@ -93,7 +95,6 @@
       <object>objects\objStartMenu</object>
       <object>objects\objOptionsMenu</object>
       <object>objects\objYesNo</object>
-      <object>objects\objMenuEffects</object>
       <object>objects\objOptionsPersistent</object>
     </objects>
     <objects name="ScenarioObjects">
@@ -127,11 +128,12 @@
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalDoor</object>
+    <object>objects\obj_invisibleBlock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
-    <room>rooms\MainRoom</room>
     <room>rooms\roomOptions</room>
+    <room>rooms\MainRoom</room>
   </rooms>
   <constants number="5">
     <constant name="GRAVITY">3</constant>

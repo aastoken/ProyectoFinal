@@ -3,7 +3,7 @@
   <spriteName>sprFinalDoor</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -61,8 +61,8 @@ arrived = true;
 if (arrived)
 {
     draw_text(x-50,y-240,"YOU HAVE ESCAPED, HUMAN");
-    draw_text(x-65,y-200,"Press Esc to go back to the MENU");
-    if ( keyboard_check_pressed(vk_escape) )
+    draw_text(x-65,y-200,"Press E to go back to the MENU");
+    if ( keyboard_check(ord('E'))&amp;&amp; obj_Player.image_index&gt;=4)
         room_goto(roomMenu);
 }
 </string>

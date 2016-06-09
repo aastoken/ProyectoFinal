@@ -26,6 +26,7 @@ if (key_shoot && canShoot)
 
 
 //Animation left-right
+
 if(hsp!=0)
 {
     dirAim = sign(hsp);
@@ -43,6 +44,12 @@ if(hsp!=0)
         sprite_index = sprPlayerLeft;
     }
 } 
+else if(place_meeting(x,y,objFinalDoor) && keyboard_check(ord('E')) && image_index<=4)
+{
+    hsp=0;
+    sprite_index=spr_playerDoor
+    image_index+=0.2
+}
 else
 {
     image_speed = 0;
@@ -99,3 +106,4 @@ if ( (stairDown && key_down) || (staired && key_up) )
     if (!staired)
         verticalCollisions = !(stairDown && key_down)    
 }
+
