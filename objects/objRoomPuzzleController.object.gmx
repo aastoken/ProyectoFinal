@@ -51,17 +51,29 @@ anim = 0;
             <kind>1</kind>
             <string>draw_self();
 
-if( place_meeting(x,y,obj_Player)  )
-{
-    enableMove = true;
-    view_visible[0] = false;
-    view_visible[1] = true;
-}
-else 
+
+if ( !enableMove )
 {
     view_visible[0] = true;
     view_visible[1] = false;
-    enableMove = false;
+    if (keyboard_check_pressed(ord('E')) &amp;&amp; place_meeting(x,y,obj_Player ))
+        enableMove = true;
+
+}
+else
+{
+    view_visible[0] = false;
+    view_visible[1] = true;
+    if (keyboard_check_pressed(ord('E')) &amp;&amp; place_meeting(x,y,obj_Player ))
+        enableMove = false;
+}
+
+//Draw the E interact button
+if(place_meeting(x,y,obj_Player))
+{
+    anim+=0.05
+    anim=anim%2;
+    draw_sprite(spr_context_E,anim,x+40,y-60); 
 }
 
 </string>

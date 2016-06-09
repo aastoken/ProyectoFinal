@@ -413,20 +413,6 @@
     <instance objName="obj_Wall" x="1824" y="3168" name="inst_5721EC9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1696" y="2976" name="inst_AAA76BA5" locked="0" code="" scaleX="13" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2144" y="2976" name="inst_2FCE0180" locked="0" code="" scaleX="26" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="416" y="2176" name="inst_E2C1D6B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="448" y="2176" name="inst_141FA1F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="480" y="2176" name="inst_C78DFB74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="512" y="2176" name="inst_EC9B63C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="544" y="2176" name="inst_10ECAE4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="576" y="2176" name="inst_B1A3B23E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="608" y="2176" name="inst_E4BEF2CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="640" y="2176" name="inst_56B0F4CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="672" y="2176" name="inst_40EC0B01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="704" y="2176" name="inst_A42991B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="736" y="2176" name="inst_439DD22B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="768" y="2176" name="inst_50A04D00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="800" y="2176" name="inst_D7BD1BB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spikes" x="832" y="2176" name="inst_BDF37C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="864" y="2976" name="inst_8D30A2E3" locked="0" code="" scaleX="25" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="78" y="2649" name="inst_3EE278C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHorizontalShootingAI" x="380" y="2669" name="inst_31EC4556" locked="0" code="angle = 180;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -478,7 +464,6 @@
     <instance objName="obj_trapdoor" x="288" y="2816" name="inst_1824300B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="416" y="2816" name="inst_2888B21A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="2816" name="inst_52B920D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objStartMenu" x="384" y="480" name="inst_0324D8A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="96" y="2816" name="inst_D7055D94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="128" y="2816" name="inst_66C9F992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="160" y="2816" name="inst_DEF6C8E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1310,45 +1295,9 @@
     <tile bgName="bgGame" x="416" y="2464" w="32" h="32" xo="32" yo="32" id="10003147" name="inst_578E176F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="832" y="2464" w="32" h="32" xo="32" yo="32" id="10003155" name="inst_959786F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="32" y="2208" w="32" h="32" xo="32" yo="32" id="10003156" name="inst_A4FF26A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2240" w="32" h="32" xo="32" yo="32" id="10003175" name="inst_C368E2B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2272" w="32" h="32" xo="32" yo="32" id="10003176" name="inst_54D998DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2304" w="32" h="32" xo="32" yo="32" id="10003177" name="inst_F4E8B40E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2336" w="32" h="32" xo="32" yo="32" id="10003178" name="inst_4DDC936A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="2368" w="32" h="32" xo="32" yo="32" id="10003179" name="inst_3BA7999F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="2400" w="32" h="32" xo="32" yo="32" id="10003180" name="inst_C2053073" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="2432" w="32" h="32" xo="32" yo="32" id="10003181" name="inst_230D9F0D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="544" y="2208" w="32" h="32" xo="32" yo="32" id="10003185" name="inst_87E33250" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="576" y="2208" w="32" h="32" xo="32" yo="32" id="10003186" name="inst_9C593330" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1120" y="2208" w="32" h="32" xo="32" yo="32" id="10003209" name="inst_1898C174" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1152" y="2208" w="32" h="32" xo="32" yo="32" id="10003210" name="inst_D98EBA34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1216" y="2208" w="32" h="32" xo="32" yo="32" id="10003214" name="inst_738C6705" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1248" y="2208" w="32" h="32" xo="32" yo="32" id="10003215" name="inst_243EA160" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1184" y="2208" w="32" h="32" xo="32" yo="32" id="10003216" name="inst_1329D382" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1280" y="2208" w="32" h="32" xo="32" yo="32" id="10003220" name="inst_83285F82" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1312" y="2208" w="32" h="32" xo="32" yo="32" id="10003221" name="inst_D2E7EF6D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="2208" w="32" h="32" xo="32" yo="32" id="10003222" name="inst_B8812D01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="2208" w="32" h="32" xo="32" yo="32" id="10003223" name="inst_A013F1CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="2208" w="32" h="32" xo="32" yo="32" id="10003224" name="inst_0BD9FD74" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="2208" w="32" h="32" xo="32" yo="32" id="10003225" name="inst_F36D5DF6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="2208" w="32" h="32" xo="32" yo="32" id="10003226" name="inst_5DB09037" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="2208" w="32" h="32" xo="32" yo="32" id="10003227" name="inst_D0D11C91" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="2208" w="32" h="32" xo="32" yo="32" id="10003228" name="inst_A7F84DC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="2208" w="32" h="32" xo="32" yo="32" id="10003229" name="inst_92544A27" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="2208" w="32" h="32" xo="32" yo="32" id="10003230" name="inst_93018745" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1632" y="2208" w="32" h="32" xo="32" yo="32" id="10003231" name="inst_92D0EFC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1664" y="2208" w="32" h="32" xo="32" yo="32" id="10003232" name="inst_96F52B9E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1696" y="2208" w="32" h="32" xo="32" yo="32" id="10003233" name="inst_D67B7BFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1728" y="2208" w="32" h="32" xo="32" yo="32" id="10003234" name="inst_D3FEFE0C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1760" y="2208" w="32" h="32" xo="32" yo="32" id="10003235" name="inst_0F13545A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1792" y="2208" w="32" h="32" xo="32" yo="32" id="10003236" name="inst_5F695757" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1824" y="2208" w="32" h="32" xo="32" yo="32" id="10003237" name="inst_BE517054" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1856" y="2208" w="32" h="32" xo="32" yo="32" id="10003238" name="inst_AFD0DC4B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1888" y="2208" w="32" h="32" xo="32" yo="32" id="10003239" name="inst_D6947DA9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1920" y="2208" w="32" h="32" xo="32" yo="32" id="10003240" name="inst_6DD445EA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="2208" w="32" h="32" xo="32" yo="32" id="10003241" name="inst_ABE78418" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="2208" w="32" h="32" xo="32" yo="32" id="10003242" name="inst_A5DF73CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="2208" w="32" h="32" xo="32" yo="32" id="10003243" name="inst_6E57ACDC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2048" y="2208" w="32" h="32" xo="32" yo="32" id="10003244" name="inst_43504F26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2080" y="2208" w="32" h="32" xo="32" yo="32" id="10003245" name="inst_66F2ABD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2112" y="2208" w="32" h="32" xo="32" yo="32" id="10003246" name="inst_39474FF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2144" y="2208" w="32" h="32" xo="32" yo="32" id="10003247" name="inst_5E06F363" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -1401,197 +1350,8 @@
     <tile bgName="bgGame" x="640" y="1984" w="32" h="32" xo="32" yo="32" id="10003310" name="inst_CACD6456" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="640" y="1952" w="32" h="32" xo="32" yo="32" id="10003311" name="inst_9D4888DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="64" y="2208" w="32" h="32" xo="32" yo="32" id="10003313" name="inst_0DAA5004" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2208" w="32" h="32" xo="32" yo="32" id="10003325" name="inst_FCBD1C38" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="448" y="2208" w="32" h="32" xo="32" yo="32" id="10003326" name="inst_76600FB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="480" y="2208" w="32" h="32" xo="32" yo="32" id="10003327" name="inst_ED2F1056" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="512" y="2208" w="32" h="32" xo="32" yo="32" id="10003328" name="inst_6C8AF336" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="96" y="2208" w="32" h="32" xo="32" yo="32" id="10003329" name="inst_E2DBD201" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="128" y="2208" w="32" h="32" xo="32" yo="32" id="10003330" name="inst_BCC2C52C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="160" y="2208" w="32" h="32" xo="32" yo="32" id="10003331" name="inst_1F767858" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="192" y="2208" w="32" h="32" xo="32" yo="32" id="10003332" name="inst_AE18E9A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="224" y="2208" w="32" h="32" xo="32" yo="32" id="10003335" name="inst_424E43B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="256" y="2208" w="32" h="32" xo="32" yo="32" id="10003336" name="inst_6D50A218" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="288" y="2208" w="32" h="32" xo="32" yo="32" id="10003337" name="inst_06E8E14F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="320" y="2208" w="32" h="32" xo="32" yo="32" id="10003338" name="inst_8DADD6A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="352" y="2208" w="32" h="32" xo="32" yo="32" id="10003339" name="inst_CE6ED7BB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="384" y="2208" w="32" h="32" xo="32" yo="32" id="10003340" name="inst_761D7ABF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="608" y="2208" w="32" h="32" xo="32" yo="32" id="10003341" name="inst_BC2E2FCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="640" y="2208" w="32" h="32" xo="32" yo="32" id="10003342" name="inst_AC9F619D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="672" y="2208" w="32" h="32" xo="32" yo="32" id="10003343" name="inst_1A893156" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="704" y="2208" w="32" h="32" xo="32" yo="32" id="10003344" name="inst_A20B830F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="736" y="2208" w="32" h="32" xo="32" yo="32" id="10003345" name="inst_CE336EA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="768" y="2208" w="32" h="32" xo="32" yo="32" id="10003346" name="inst_BCB5FFEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="800" y="2208" w="32" h="32" xo="32" yo="32" id="10003347" name="inst_76A1537F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="832" y="2208" w="32" h="32" xo="32" yo="32" id="10003348" name="inst_F40A0FF9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="864" y="2208" w="32" h="32" xo="32" yo="32" id="10003349" name="inst_F84ADCA7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="896" y="2208" w="32" h="32" xo="32" yo="32" id="10003350" name="inst_F3B713D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="928" y="2208" w="32" h="32" xo="32" yo="32" id="10003351" name="inst_059EC4E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="2208" w="32" h="32" xo="32" yo="32" id="10003352" name="inst_1756FD68" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="2208" w="32" h="32" xo="32" yo="32" id="10003358" name="inst_B0A8AE8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="2208" w="32" h="32" xo="32" yo="32" id="10003359" name="inst_683A1A4D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="2208" w="32" h="32" xo="32" yo="32" id="10003360" name="inst_F327A96A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="2208" w="32" h="32" xo="32" yo="32" id="10003361" name="inst_D0AF3F2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1280" y="1600" w="32" h="32" xo="32" yo="32" id="10003363" name="inst_A45D5107" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1312" y="1600" w="32" h="32" xo="32" yo="32" id="10003364" name="inst_49D9E5A8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1568" w="32" h="32" xo="32" yo="32" id="10003365" name="inst_1619A9C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="1568" w="32" h="32" xo="32" yo="32" id="10003367" name="inst_0F8CC4BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="1600" w="32" h="32" xo="32" yo="32" id="10003370" name="inst_CC35B240" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1632" w="32" h="32" xo="32" yo="32" id="10003371" name="inst_C832200E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1632" w="32" h="32" xo="32" yo="32" id="10003372" name="inst_663051BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1632" w="32" h="32" xo="32" yo="32" id="10003373" name="inst_5809C57A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1600" w="32" h="32" xo="32" yo="32" id="10003374" name="inst_D4D017BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1600" w="32" h="32" xo="32" yo="32" id="10003375" name="inst_E17E533B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1600" w="32" h="32" xo="32" yo="32" id="10003376" name="inst_79817FBE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1568" w="32" h="32" xo="32" yo="32" id="10003377" name="inst_D90C678A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="1568" w="32" h="32" xo="32" yo="32" id="10003378" name="inst_12ABD073" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="1568" w="32" h="32" xo="32" yo="32" id="10003379" name="inst_217F43C8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="1600" w="32" h="32" xo="32" yo="32" id="10003380" name="inst_3002B2A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="1600" w="32" h="32" xo="32" yo="32" id="10003381" name="inst_2FDA3225" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="1600" w="32" h="32" xo="32" yo="32" id="10003382" name="inst_E5877BC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="1600" w="32" h="32" xo="32" yo="32" id="10003387" name="inst_0EAEA8C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="1568" w="32" h="32" xo="32" yo="32" id="10003388" name="inst_D9E86C6C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1568" w="32" h="32" xo="32" yo="32" id="10003389" name="inst_B7EA1118" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1600" w="32" h="32" xo="32" yo="32" id="10003390" name="inst_C5919BBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1632" y="1600" w="32" h="32" xo="32" yo="32" id="10003391" name="inst_C92A57BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1632" y="1568" w="32" h="32" xo="32" yo="32" id="10003392" name="inst_C8B965FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1056" w="32" h="32" xo="32" yo="32" id="10003393" name="inst_0D83D0CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="960" w="32" h="32" xo="32" yo="32" id="10003394" name="inst_E43F1EF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="992" w="32" h="32" xo="32" yo="32" id="10003395" name="inst_A934C94F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1024" w="32" h="32" xo="32" yo="32" id="10003396" name="inst_242F750B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1056" w="32" h="32" xo="32" yo="32" id="10003397" name="inst_C8001EC9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1088" w="32" h="32" xo="32" yo="32" id="10003398" name="inst_71E59815" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1120" w="32" h="32" xo="32" yo="32" id="10003399" name="inst_B1E6717D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1120" w="32" h="32" xo="32" yo="32" id="10003400" name="inst_B46F9D63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1152" w="32" h="32" xo="32" yo="32" id="10003401" name="inst_E47774FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1184" w="32" h="32" xo="32" yo="32" id="10003402" name="inst_B75AC5BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1184" w="32" h="32" xo="32" yo="32" id="10003403" name="inst_06281934" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1184" w="32" h="32" xo="32" yo="32" id="10003404" name="inst_B9A9E899" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="1184" w="32" h="32" xo="32" yo="32" id="10003405" name="inst_7D39F951" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="1184" w="32" h="32" xo="32" yo="32" id="10003406" name="inst_FC218833" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="1184" w="32" h="32" xo="32" yo="32" id="10003407" name="inst_6FB85D04" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="1184" w="32" h="32" xo="32" yo="32" id="10003408" name="inst_00194C87" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="1216" w="32" h="32" xo="32" yo="32" id="10003409" name="inst_11CDB95D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="1216" w="32" h="32" xo="32" yo="32" id="10003410" name="inst_B518B8B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1184" w="32" h="32" xo="32" yo="32" id="10003411" name="inst_383D2496" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1152" w="32" h="32" xo="32" yo="32" id="10003412" name="inst_1A9DFD7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1120" w="32" h="32" xo="32" yo="32" id="10003413" name="inst_96B3104C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1088" w="32" h="32" xo="32" yo="32" id="10003414" name="inst_C8628F3B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1056" w="32" h="32" xo="32" yo="32" id="10003415" name="inst_65AC5011" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="1024" w="32" h="32" xo="32" yo="32" id="10003417" name="inst_AAA2CD0F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="992" w="32" h="32" xo="32" yo="32" id="10003418" name="inst_88C437A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="960" w="32" h="32" xo="32" yo="32" id="10003419" name="inst_747E4195" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="960" w="32" h="32" xo="32" yo="32" id="10003420" name="inst_8C831DD4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1536" y="928" w="32" h="32" xo="32" yo="32" id="10003421" name="inst_D3E9059F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="928" w="32" h="32" xo="32" yo="32" id="10003422" name="inst_3FD278F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="928" w="32" h="32" xo="32" yo="32" id="10003423" name="inst_2034A22F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="928" w="32" h="32" xo="32" yo="32" id="10003424" name="inst_DF6FCE20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="928" w="32" h="32" xo="32" yo="32" id="10003425" name="inst_4052EA4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="928" w="32" h="32" xo="32" yo="32" id="10003426" name="inst_1F973233" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="928" w="32" h="32" xo="32" yo="32" id="10003427" name="inst_103255CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="928" w="32" h="32" xo="32" yo="32" id="10003428" name="inst_651DF533" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="960" w="32" h="32" xo="32" yo="32" id="10003429" name="inst_7CCD40CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="992" w="32" h="32" xo="32" yo="32" id="10003430" name="inst_DC408F43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1024" w="32" h="32" xo="32" yo="32" id="10003431" name="inst_A6FABF72" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="608" w="32" h="32" xo="32" yo="32" id="10003432" name="inst_8ED87D20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="608" w="32" h="32" xo="32" yo="32" id="10003433" name="inst_07A999B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="608" w="32" h="32" xo="32" yo="32" id="10003434" name="inst_1AB9CDAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1120" y="608" w="32" h="32" xo="32" yo="32" id="10003435" name="inst_B146E81E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1184" y="608" w="32" h="32" xo="32" yo="32" id="10003436" name="inst_BE8D9DD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1280" y="608" w="32" h="32" xo="32" yo="32" id="10003437" name="inst_C0D23310" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="576" w="32" h="32" xo="32" yo="32" id="10003438" name="inst_B7D9F1B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="576" w="32" h="32" xo="32" yo="32" id="10003439" name="inst_4C907974" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="608" w="32" h="32" xo="32" yo="32" id="10003440" name="inst_1D1F55A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="608" w="32" h="32" xo="32" yo="32" id="10003441" name="inst_57D6C5CF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="608" w="32" h="32" xo="32" yo="32" id="10003442" name="inst_CE66074C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1632" y="608" w="32" h="32" xo="32" yo="32" id="10003443" name="inst_1DF9DC76" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1664" y="608" w="32" h="32" xo="32" yo="32" id="10003444" name="inst_B6552BB4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1696" y="608" w="32" h="32" xo="32" yo="32" id="10003445" name="inst_D4F0DCDC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1728" y="608" w="32" h="32" xo="32" yo="32" id="10003446" name="inst_DEE4834A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1760" y="608" w="32" h="32" xo="32" yo="32" id="10003447" name="inst_B8C8B910" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1792" y="608" w="32" h="32" xo="32" yo="32" id="10003448" name="inst_980B9DEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1824" y="608" w="32" h="32" xo="32" yo="32" id="10003449" name="inst_3F0B602C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1856" y="640" w="32" h="32" xo="32" yo="32" id="10003450" name="inst_C63FD09F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1888" y="640" w="32" h="32" xo="32" yo="32" id="10003451" name="inst_B3ED1107" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1920" y="640" w="32" h="32" xo="32" yo="32" id="10003452" name="inst_5F920338" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1920" y="672" w="32" h="32" xo="32" yo="32" id="10003453" name="inst_7A8F75D0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1920" y="704" w="32" h="32" xo="32" yo="32" id="10003454" name="inst_CA8671BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="704" w="32" h="32" xo="32" yo="32" id="10003455" name="inst_41DD806B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="736" w="32" h="32" xo="32" yo="32" id="10003456" name="inst_682DA269" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="768" w="32" h="32" xo="32" yo="32" id="10003457" name="inst_8DABC0AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="800" w="32" h="32" xo="32" yo="32" id="10003458" name="inst_BB79E051" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="832" w="32" h="32" xo="32" yo="32" id="10003459" name="inst_6FC20951" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="864" w="32" h="32" xo="32" yo="32" id="10003460" name="inst_3B3AFC43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="896" w="32" h="32" xo="32" yo="32" id="10003461" name="inst_5EA571E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="928" w="32" h="32" xo="32" yo="32" id="10003462" name="inst_31E3E35A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="992" w="32" h="32" xo="32" yo="32" id="10003463" name="inst_D7ED85AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="1024" w="32" h="32" xo="32" yo="32" id="10003464" name="inst_2E4B7B6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="1056" w="32" h="32" xo="32" yo="32" id="10003465" name="inst_0050CC7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="1088" w="32" h="32" xo="32" yo="32" id="10003466" name="inst_2773FE6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1088" w="32" h="32" xo="32" yo="32" id="10003467" name="inst_C026DCC6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1120" w="32" h="32" xo="32" yo="32" id="10003468" name="inst_C9E12D09" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1152" w="32" h="32" xo="32" yo="32" id="10003469" name="inst_5675AF5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1184" w="32" h="32" xo="32" yo="32" id="10003470" name="inst_660FCB39" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1216" w="32" h="32" xo="32" yo="32" id="10003471" name="inst_85CB47AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1248" w="32" h="32" xo="32" yo="32" id="10003472" name="inst_40106F40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1280" w="32" h="32" xo="32" yo="32" id="10003473" name="inst_ED87586C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1312" w="32" h="32" xo="32" yo="32" id="10003474" name="inst_9AE9C523" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2016" y="1344" w="32" h="32" xo="32" yo="32" id="10003475" name="inst_0CC7B436" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="1344" w="32" h="32" xo="32" yo="32" id="10003476" name="inst_3541ADDC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1984" y="1376" w="32" h="32" xo="32" yo="32" id="10003477" name="inst_E2F6094D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1952" y="1376" w="32" h="32" xo="32" yo="32" id="10003478" name="inst_A7C5508A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1920" y="1376" w="32" h="32" xo="32" yo="32" id="10003479" name="inst_9D296BE5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1888" y="1376" w="32" h="32" xo="32" yo="32" id="10003480" name="inst_550571A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1856" y="1376" w="32" h="32" xo="32" yo="32" id="10003481" name="inst_7CECE0C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1856" y="1408" w="32" h="32" xo="32" yo="32" id="10003482" name="inst_742C0F4C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1824" y="1408" w="32" h="32" xo="32" yo="32" id="10003483" name="inst_97F47607" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1792" y="1408" w="32" h="32" xo="32" yo="32" id="10003484" name="inst_EEB63B4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1760" y="1408" w="32" h="32" xo="32" yo="32" id="10003485" name="inst_B81A4D14" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1728" y="1376" w="32" h="32" xo="32" yo="32" id="10003486" name="inst_7B8525DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1696" y="1376" w="32" h="32" xo="32" yo="32" id="10003487" name="inst_71CAB20F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1664" y="1376" w="32" h="32" xo="32" yo="32" id="10003488" name="inst_08DBA0C4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1632" y="1376" w="32" h="32" xo="32" yo="32" id="10003489" name="inst_11EA5444" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1600" y="1376" w="32" h="32" xo="32" yo="32" id="10003490" name="inst_62BF39DC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1568" y="1408" w="32" h="32" xo="32" yo="32" id="10003491" name="inst_A29FB1D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1504" y="1408" w="32" h="32" xo="32" yo="32" id="10003492" name="inst_3963CB31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1472" y="1408" w="32" h="32" xo="32" yo="32" id="10003493" name="inst_8C8E746A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="1408" w="32" h="32" xo="32" yo="32" id="10003494" name="inst_5BEF36B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1440" y="1440" w="32" h="32" xo="32" yo="32" id="10003495" name="inst_B9036EB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1408" y="1440" w="32" h="32" xo="32" yo="32" id="10003496" name="inst_F13775C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1376" y="1440" w="32" h="32" xo="32" yo="32" id="10003497" name="inst_56F1DB1B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1344" y="1440" w="32" h="32" xo="32" yo="32" id="10003498" name="inst_0EB41F61" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1312" y="1440" w="32" h="32" xo="32" yo="32" id="10003499" name="inst_85E233EC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1280" y="1440" w="32" h="32" xo="32" yo="32" id="10003500" name="inst_2BC79129" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1248" y="1472" w="32" h="32" xo="32" yo="32" id="10003501" name="inst_BFA86E69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1216" y="1472" w="32" h="32" xo="32" yo="32" id="10003502" name="inst_3AA2E0FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1184" y="1472" w="32" h="32" xo="32" yo="32" id="10003503" name="inst_3B3D81A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1152" y="1472" w="32" h="32" xo="32" yo="32" id="10003504" name="inst_B83CB741" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1120" y="1472" w="32" h="32" xo="32" yo="32" id="10003505" name="inst_0BDEEBD7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="1472" w="32" h="32" xo="32" yo="32" id="10003506" name="inst_D78239A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="1440" w="32" h="32" xo="32" yo="32" id="10003507" name="inst_F1BF2B0E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="1440" w="32" h="32" xo="32" yo="32" id="10003508" name="inst_743F6A0E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="1408" w="32" h="32" xo="32" yo="32" id="10003509" name="inst_F3AFA2C6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="1344" w="32" h="32" xo="32" yo="32" id="10003510" name="inst_1C10008F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="1280" w="32" h="32" xo="32" yo="32" id="10003511" name="inst_BB48E7F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="1216" w="32" h="32" xo="32" yo="32" id="10003512" name="inst_37515EEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="1152" w="32" h="32" xo="32" yo="32" id="10003513" name="inst_5082384A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="1120" w="32" h="32" xo="32" yo="32" id="10003514" name="inst_043E7093" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="1056" w="32" h="32" xo="32" yo="32" id="10003515" name="inst_F6B8794F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="1024" w="32" h="32" xo="32" yo="32" id="10003516" name="inst_A99C8442" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="992" w="32" h="32" xo="32" yo="32" id="10003517" name="inst_3285AF5C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="928" w="32" h="32" xo="32" yo="32" id="10003518" name="inst_593BF874" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="896" w="32" h="32" xo="32" yo="32" id="10003519" name="inst_99F97754" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="832" w="32" h="32" xo="32" yo="32" id="10003520" name="inst_AF324F2F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="800" w="32" h="32" xo="32" yo="32" id="10003521" name="inst_F9B97D66" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="768" w="32" h="32" xo="32" yo="32" id="10003522" name="inst_46F07BFF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="736" w="32" h="32" xo="32" yo="32" id="10003523" name="inst_4F745822" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="960" y="704" w="32" h="32" xo="32" yo="32" id="10003524" name="inst_1A38CB3D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="704" w="32" h="32" xo="32" yo="32" id="10003525" name="inst_687B6510" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="992" y="672" w="32" h="32" xo="32" yo="32" id="10003526" name="inst_23308EAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1024" y="672" w="32" h="32" xo="32" yo="32" id="10003527" name="inst_C8CE520A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="672" w="32" h="32" xo="32" yo="32" id="10003528" name="inst_CA2A7A73" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="672" w="32" h="32" xo="32" yo="32" id="10003529" name="inst_8220F418" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1088" y="640" w="32" h="32" xo="32" yo="32" id="10003530" name="inst_487F3DAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="1056" y="640" w="32" h="32" xo="32" yo="32" id="10003531" name="inst_868AADD7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="96" y="3456" w="32" h="32" xo="32" yo="32" id="10003533" name="inst_DDABB37C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="128" y="3456" w="32" h="32" xo="32" yo="32" id="10003534" name="inst_CA37930F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="128" y="3424" w="32" h="32" xo="32" yo="32" id="10003535" name="inst_9B0AAA94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

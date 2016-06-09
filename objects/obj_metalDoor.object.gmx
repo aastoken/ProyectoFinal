@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>image_speed = 0.5;
-close=false;
+close = false;
 openInterval=4;
 </string>
           </argument>
