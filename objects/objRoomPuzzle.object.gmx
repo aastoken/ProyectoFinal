@@ -3,7 +3,7 @@
   <spriteName>sprRoomPuzzle</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-500</depth>
   <persistent>0</persistent>
   <parentName>objRoomPuzzleFrame</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,6 +28,7 @@
             <string>hsp = 0;
 vsp = 0;
 radio = 100; 
+moving = false;
 </string>
           </argument>
         </arguments>
@@ -57,8 +58,9 @@ if ( controller.enableMove)
 
 distanceSqr = sqr(mouse_x - x) + sqr(mouse_y - y);
 
-if ( (sqr(radio) &gt; distanceSqr ) &amp;&amp; mouse_check_button_pressed( mb_right) )
+if ( (sqr(radio) &gt; distanceSqr ) &amp;&amp; mouse_check_button_pressed( mb_right) &amp;&amp; !moving)
 {
+    moving = true;
     right = !place_meeting(x+1,y,objRoomPuzzleFrame);
     left = !place_meeting(x-1,y,objRoomPuzzleFrame);
     up = !place_meeting(x,y-1,objRoomPuzzleFrame);
@@ -94,36 +96,11 @@ if ( place_meeting(x,y + vsp,objRoomPuzzleFrame ) )
 
 y+=vsp;
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>draw_self();
-/*distanceSqr = sqr(mouse_x - x) + sqr(mouse_y - y);
-controller = instance_nearest(x,y,objRoomPuzzleController);
 
-
-if ( (sqr(radio) &gt; distanceSqr ) &amp;&amp; controller.enableMove)
+//Check if it's moving
+if(hsp == 0 &amp;&amp; vsp == 0 )
 {
-    draw_self();
+    moving = false;
 }
 </string>
           </argument>

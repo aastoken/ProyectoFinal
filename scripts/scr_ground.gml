@@ -58,6 +58,19 @@ if( place_meeting(x,y,obj_trapdoor ) )
         y+=1;
 }
 
+//Activates the movingPuzzle
+if (place_meeting(x,y,objRoomPuzzleController ) )
+{
+    view_visible[0] = false;
+    view_visible[1] = true;
+}
+else
+{
+    view_visible[0] = true;
+    view_visible[1] = false;
+}
+
+
 //Change state??
 grounded = place_meeting(x,y+1,obj_Wall);
 staired = place_meeting(x,y,obj_stairsMiddle);

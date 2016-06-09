@@ -29,6 +29,7 @@
 imageSpeed = 0.2;
 canShoot = true;    //Enables shooting
 dirAim = 1;
+controller = noone;
 
 ///Initial variables
 hsp = 0;
@@ -37,7 +38,7 @@ vsp = 0;
 //Movement Parameters
 acceleration = 2;   //aceleracion en tierra
 airFriction = 0.1;  //friccion en el aire  
-airAcceleration = 2;//aceleracion en el aire
+airAcceleration = 1.5;//aceleracion en el aire
 topSpeed = 7;      //velocidad maxima
 sprintSpeed = 8;   //velocidad al correr
 jumpHeight = 50;    //altura de salto
@@ -107,10 +108,6 @@ canShoot = true;
             <kind>1</kind>
             <string>//Get the player's input
 scr_get_input();
-
-//In case we re stuck
-if ( key_restart )
-    room_goto(room);
 
 //Decides which state we are in.
 switch(state)
