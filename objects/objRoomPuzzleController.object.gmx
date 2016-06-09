@@ -52,20 +52,24 @@ anim = 0;
             <string>draw_self();
 
 
-if ( !enableMove )
+if ( !enableMove || !place_meeting(x,y,obj_Player ) )
 {
     view_visible[0] = true;
     view_visible[1] = false;
     if (keyboard_check_pressed(ord('E')) &amp;&amp; place_meeting(x,y,obj_Player ))
+    {
         enableMove = true;
-
+    }
 }
 else
 {
     view_visible[0] = false;
     view_visible[1] = true;
     if (keyboard_check_pressed(ord('E')) &amp;&amp; place_meeting(x,y,obj_Player ))
+    {
         enableMove = false;
+        instance_activate_object(obj_Player);instance_activate_object(obj_Player);
+    }
 }
 
 //Draw the E interact button
