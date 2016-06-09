@@ -37,8 +37,8 @@ vsp = 0;
 //Movement Parameters
 acceleration = 2;   //aceleracion en tierra
 airFriction = 0.1;  //friccion en el aire  
-airAcceleration = 1;//aceleracion en el aire
-topSpeed = 6;      //velocidad maxima
+airAcceleration = 2;//aceleracion en el aire
+topSpeed = 7;      //velocidad maxima
 sprintSpeed = 8;   //velocidad al correr
 jumpHeight = 50;    //altura de salto
 wallJumpSpeed = 10; //velocidad de salto contra la pared

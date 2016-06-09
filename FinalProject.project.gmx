@@ -87,6 +87,7 @@
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scrMgrBgSound.gml</script>
     <script>scripts\scr_trapdoor.gml</script>
+    <script>scripts\scr_findLinkButton.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="menu">
@@ -103,11 +104,9 @@
       <object>objects\obj_trapdoor</object>
       <object>objects\obj_button</object>
       <object>objects\obj_metalDoor</object>
-      <object>objects\obj_Wall</object>
       <object>objects\obj_teleport</object>
       <object>objects\objIceBlock</object>
       <object>objects\obj_lava</object>
-      <object>objects\obj_spikes</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
@@ -117,6 +116,7 @@
       <object>objects\objHorizontalShootingAI</object>
       <object>objects\objVolt</object>
       <object>objects\objEnemFlyStone</object>
+      <object>objects\obj_spikes</object>
     </objects>
     <objects name="RoomPuzzle">
       <object>objects\objRoomPuzzleBlock</object>
@@ -126,17 +126,18 @@
     </objects>
     <object>objects\obj_Player</object>
     <object>objects\objEffects</object>
+    <object>objects\obj_Wall</object>
     <object>objects\objGameManager</object>
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalBossBlend</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\ResolutionRoom</room>
-    <room>rooms\room_enemies</room>
-    <room>rooms\room_walljump</room>
     <room>rooms\roomMenu</room>
-    <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
+    <room>rooms\room_enemies</room>
+    <room>rooms\ResolutionRoom</room>
+    <room>rooms\room_walljump</room>
+    <room>rooms\roomOptions</room>
     <room>rooms\FinalBoss</room>
   </rooms>
   <constants number="5">

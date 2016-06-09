@@ -100,7 +100,7 @@ down = place_meeting(x,y+1,obj_Player);
 left = place_meeting(x-1,y,obj_Player);
 up = place_meeting(x,y-1,obj_Player);
 
-if(right || left || up || down )
+if((right || left || up || down )&amp;&amp; move )
 {
     with(obj_Player)
         instance_destroy();
