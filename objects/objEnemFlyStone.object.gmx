@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0;
 move = true;
-w= 0.15;
+w= 0.15;    //Frecuencia de giro
 radio = 200;
 time = 0;
 </string>

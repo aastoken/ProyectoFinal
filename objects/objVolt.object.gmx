@@ -31,6 +31,7 @@ image_speed=0;
 
 
 
+
 </string>
           </argument>
         </arguments>
@@ -93,7 +94,7 @@ if(image_angle == 90 || image_angle == 270 )//Vertical Shoot
     }
     for (i=0;i&lt;beamsToDraw;i++)
     {
-        draw_sprite(sprVoltMiddle,1,x,y+i*20);
+        draw_sprite(sprVoltMiddle,1,x,y+i*20*sign(ystart-y));
     }
 }
 else    //Horizontal Shoot
@@ -108,7 +109,7 @@ else    //Horizontal Shoot
     }
     for (i=0;i&lt;beamsToDraw;i++)
     {
-        draw_sprite(sprVoltMiddle,0,x+i*20,y);
+        draw_sprite(sprVoltMiddle,0,x+i*20*sign(xstart-x),y);
     }
 }
 

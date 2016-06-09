@@ -155,45 +155,6 @@ switch(state)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
-draw_self();
-draw_set_color(c_yellow);
-
-placeX =  view_xview[0]+ view_wview[0]-160;
-placeY =  view_yview[0] + 40;
-grounded = place_meeting(x,y+1,obj_Wall);
-if ( state = GROUND)
-draw_text(placeX,placeY,"STATE = GROUND " );
-else if(state = AIR)
-draw_text(placeX,placeY,"STATE = AIR " );
-else if(state = TELEPORT)
-draw_text(placeX,placeY,"STATE = TELEPORT " );
-else if(state = STAIR)
-draw_text(placeX,placeY,"STATE = STAIR " );
-else
-draw_text(placeX,placeY,"NO STATE FOUND " );
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
