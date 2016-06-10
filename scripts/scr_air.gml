@@ -37,11 +37,12 @@ if ( right_wall || left_wall )
 }
 
 //Gravity and Wall friction
+if(vsp<maxVsp){
 if ( (right_wall || left_wall) && vsp > 0)
-    vsp += GRAVITY/3;
+    vsp += GRAVITY/8;
 else
     vsp += GRAVITY;
-
+}
 //Animation
 
 if (hsp != 0 )

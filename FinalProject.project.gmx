@@ -70,6 +70,7 @@
       <sprite>sprites\spr_tut2</sprite>
       <sprite>sprites\spr_tut3</sprite>
       <sprite>sprites\spr_tut4</sprite>
+      <sprite>sprites\spr_tut5</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -140,6 +141,7 @@
       <object>objects\obj_tut2</object>
       <object>objects\obj_tut3</object>
       <object>objects\obj_tut4</object>
+      <object>objects\pbj_tut5</object>
     </objects>
   </objects>
   <rooms name="rooms">

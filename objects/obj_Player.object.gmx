@@ -44,6 +44,7 @@ sprintSpeed = 8;   //velocidad al correr
 jumpHeight = 50;    //altura de salto
 wallJumpSpeed = 10; //velocidad de salto contra la pared
 fireRate = 10;      //cadencia de disparo(balas/segundo)
+maxVsp=30           //Velocidad de caida Maxima
 //end Parameters
 
 
