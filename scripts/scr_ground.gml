@@ -70,8 +70,8 @@ if (place_meeting(x,y,objRoomPuzzleController ) )
 {
     view_visible[0] = false;
     view_visible[1] = true;
-    view_yview[1]= y - 1000;
-    
+    view_yview[1]= y - 1200;
+    view_xview[1]= x - 800;   
 }
 else
 {
