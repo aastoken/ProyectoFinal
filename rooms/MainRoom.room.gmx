@@ -1556,7 +1556,6 @@
     <instance objName="obj_Wall" x="2976" y="32" name="inst_800C6F38" locked="0" code="" scaleX="1" scaleY="37" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="131" y="145" name="inst_5B3F1EBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="263" y="257" name="inst_9CBA7BF0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="224" y="640" name="inst_CFAB2D34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="96" y="96" name="inst_69D73F44" locked="0" code="" scaleX="1" scaleY="44" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="128" y="384" name="inst_7ED77C2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="228" y="544" name="inst_541C5F0A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1785,6 +1784,9 @@
     <instance objName="obj_Wall" x="320" y="1488" name="inst_BCBE6A9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="352" y="816" name="inst_13ED932E" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="400" y="736" name="inst_CDD26C9E" locked="0" code="" scaleX="0.5" scaleY="2.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="2896" y="2960" name="inst_7AC4FE7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="2938" y="2963" name="inst_20B30DBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_teleport" x="1632" y="2080" name="inst_40350EF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
