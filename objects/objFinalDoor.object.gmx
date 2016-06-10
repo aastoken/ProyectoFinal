@@ -61,7 +61,7 @@ arrived = true;
 if (arrived)
 {
     draw_text(x-50,y-240,"YOU HAVE ESCAPED, HUMAN");
-    draw_text(x-65,y-200,"Press E to go back to the MENU");
+    draw_text(x-65,y-220,"Press E to go back to the MENU");
     if ( keyboard_check(ord('E'))&amp;&amp; obj_Player.image_index&gt;=4)
         room_goto(roomMenu);
 }

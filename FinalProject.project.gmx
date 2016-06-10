@@ -65,6 +65,12 @@
     <sprite>sprites\sprMagmaEnemy</sprite>
     <sprite>sprites\sprSolidMagmaEnemy</sprite>
     <sprite>sprites\sprFinalDoor</sprite>
+    <sprites name="Tutorials">
+      <sprite>sprites\spr_tut1</sprite>
+      <sprite>sprites\spr_tut2</sprite>
+      <sprite>sprites\spr_tut3</sprite>
+      <sprite>sprites\spr_tut4</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -129,6 +135,12 @@
     <object>objects\objCheckPoint</object>
     <object>objects\objFinalDoor</object>
     <object>objects\obj_invisibleBlock</object>
+    <objects name="tutorials">
+      <object>objects\obj_tut1</object>
+      <object>objects\obj_tut2</object>
+      <object>objects\obj_tut3</object>
+      <object>objects\obj_tut4</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>

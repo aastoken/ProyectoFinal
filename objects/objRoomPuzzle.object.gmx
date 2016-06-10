@@ -68,8 +68,8 @@ if ( (sqr(radio) &gt; distanceSqr ) &amp;&amp; mouse_check_button_pressed( mb_ri
     hdir = right - left;
     vdir = down - up;
     
-    hsp = hdir*5;
-    vsp = vdir*5;    
+    hsp = hdir*9;
+    vsp = vdir*9;    
 }
 
 
