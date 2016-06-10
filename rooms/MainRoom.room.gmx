@@ -1785,7 +1785,7 @@
     <instance objName="obj_Player" x="113" y="119" name="inst_36E91AD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="96" y="128" name="inst_F65911BF" locked="0" code="" scaleX="1" scaleY="43" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="389" y="672" name="inst_F4E8EB55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="959" y="70" name="inst_A5354EC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="957" y="92" name="inst_A5354EC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
