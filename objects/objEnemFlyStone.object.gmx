@@ -84,7 +84,7 @@ y = ystart + vsp;
 if ( place_meeting(x,y,objEffects) || !move )
 {
     if(alarm[0] == -1)
-        alarm[0] = room_speed*5;
+        alarm[0] = room_speed*7;
     move = false;
     image_index = 0;
 }

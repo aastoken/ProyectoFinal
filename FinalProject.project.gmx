@@ -143,6 +143,7 @@
       <object>objects\obj_tut4</object>
       <object>objects\pbj_tut5</object>
     </objects>
+    <object>objects\obj_counterClock</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\roomMenu</room>
