@@ -61,6 +61,8 @@ doubleJump = true;
 runSpeed = sprintSpeed - topSpeed;
 jumpSpeed = sqrt ( 2*GRAVITY*jumpHeight );
 
+//Gamepad settings
+gamepad_set_axis_deadzone(1,0.4)
 </string>
           </argument>
         </arguments>

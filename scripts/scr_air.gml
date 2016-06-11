@@ -28,8 +28,8 @@ left_wall = place_meeting(x-1,y,obj_Wall);
 if ( right_wall || left_wall )
 {
     jumpDir = left_wall - right_wall;
-    if( key_jump && hdir == 0  )
-    {
+    if( key_jump && hdir == 0 )//If '&& hdir==0' is commented you can jump against a 
+    {                               //wall while pressing any direction
         hsp = jumpDir*wallJumpSpeed;
         vsp = -1.7*jumpSpeed;
         doubleJump = true;
