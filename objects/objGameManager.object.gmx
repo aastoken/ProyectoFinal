@@ -26,6 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>
+deadCount = 0; //Contador de muertes
+
+//Initial checkpoint( it's updated everytime you hit a new one )
 respawnX = obj_Player.xstart;
 respawnY = obj_Player.ystart;
 
@@ -54,11 +57,13 @@ respawnY = obj_Player.ystart;
             <string>
 player = instance_find(obj_Player,0);
 
+//If player has been destroyed
 if(player == noone )
 {
     playerReborn = instance_create(respawnX,respawnY,obj_Player);
     playerReborn.hsp = 0;
-    playerReborn.vsp = 0;
+    playerReborn.vsp = 0; 
+    deadCount += 1;
 }
 
 if(keyboard_check_pressed(ord('R'))|| (gamepad_button_check_pressed(obj_Player.gn,gp_select)))

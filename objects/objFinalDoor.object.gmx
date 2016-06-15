@@ -53,6 +53,7 @@ arrived = false;
 
 if ( place_meeting(x,y,obj_Player ) )
 {
+view_yview[0] = y -1000;
 image_index = 1;
 draw_set_colour(c_yellow) ;
 arrived = true;
@@ -60,8 +61,10 @@ arrived = true;
 
 if (arrived)
 {
-    draw_text(x-50,y-240,"YOU HAVE ESCAPED, HUMAN");
-    draw_text(x-65,y-220,"Press E to go back to the MENU");
+    draw_text(x-50,y-250,"YOU HAVE ESCAPED, HUMAN");
+    draw_text(x-65,y-230,"Press E to go back to the MENU");
+    draw_text(x-30,y-210,"You died "+ string(objGameManager.deadCount) +" times");
+    
     if ( (keyboard_check(ord('E'))|| (gamepad_button_check(1,gp_face4)))&amp;&amp; obj_Player.image_index&gt;=4)
         room_goto(roomMenu);
 }

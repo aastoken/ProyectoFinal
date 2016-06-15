@@ -1546,11 +1546,11 @@
     <instance objName="obj_SpinningBlade" x="277" y="515" name="inst_39799960" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="160" y="896" name="inst_C7AC7490" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="288" y="1067" name="inst_D27DCF46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_SpinningBlade" x="160" y="1248" name="inst_CFB1E483" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_SpinningBlade" x="145" y="1242" name="inst_CFB1E483" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="288" y="1376" name="inst_C3F2C3F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="160" y="1472" name="inst_EB7B5B26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="288" y="1472" name="inst_129D34F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHorizontalShootingAI" x="384" y="768" name="inst_FE5FC19E" locked="0" code="angle=180;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHorizontalShootingAI" x="384" y="768" name="inst_FE5FC19E" locked="0" code="angle=180;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHorizontalShootingAI" x="128" y="992" name="inst_00B3BE52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHorizontalShootingAI" x="320" y="1152" name="inst_0263EE69" locked="0" code="angle=180&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objHorizontalShootingAI" x="128" y="1344" name="inst_29749CC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1885,8 +1885,8 @@
     <instance objName="obj_Wall" x="816" y="1440" name="inst_328C3B51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="816" y="1472" name="inst_A303F926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="564" y="1038" name="inst_F14904C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_SpinningBlade" x="576" y="1344" name="inst_E8992B3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_SpinningBlade" x="419" y="1415" name="inst_1A6A0502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_SpinningBlade" x="577" y="1355" name="inst_E8992B3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_SpinningBlade" x="416" y="1413" name="inst_1A6A0502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="422" y="1144" name="inst_2FAA5231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="720" y="1344" name="inst_AC796497" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="791" y="1475" name="inst_37524872" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2390,7 +2390,7 @@
     <instance objName="obj_SpinningBlade" x="1280" y="1888" name="inst_62BCAE4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="2735" y="476" name="inst_EB53E588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="2720" y="864" name="inst_DFF28366" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="63" y="3483" name="inst_40207D62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="64" y="3462" name="inst_A8E92F7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

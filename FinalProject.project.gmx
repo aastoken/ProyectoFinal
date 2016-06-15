@@ -30,6 +30,7 @@
       <sprite>sprites\spr_playerTeleportOut</sprite>
       <sprite>sprites\spr_playerBell</sprite>
       <sprite>sprites\spr_playerDoor</sprite>
+      <sprite>sprites\sprPlayerDeath</sprite>
     </sprites>
     <sprites name="Scenario">
       <sprite>sprites\spr_stairsTop</sprite>
@@ -149,8 +150,10 @@
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
+    <room>rooms\Tutorial</room>
   </rooms>
-  <constants number="5">
+  <constants number="6">
+    <constant name="DEAD">10</constant>
     <constant name="GRAVITY">3</constant>
     <constant name="GROUND">0</constant>
     <constant name="AIR">1</constant>

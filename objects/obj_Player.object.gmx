@@ -61,6 +61,7 @@ doubleJump = true;
 runSpeed = sprintSpeed - topSpeed;
 jumpSpeed = sqrt ( 2*GRAVITY*jumpHeight );
 
+
 //Gamepad settings
 gn=0;
 gamepad_set_axis_deadzone(gn,0.4)
@@ -114,6 +115,7 @@ canShoot = true;
             <string>//Get the player's input
 scr_get_input();
 
+
 //Decides which state we are in.
 switch(state)
 {
@@ -125,8 +127,14 @@ switch(state)
                     break;
     case STAIR:     scr_stair();
                     break;
-    default:        show_debug_message("NO STATE FOUND");
+    default:        show_debug_message("DEAD");
                     break;
+}
+
+//destroy the player once the death animation finishes
+if (sprite_index == sprPlayerDeath &amp;&amp; image_index &gt;= (image_number-1) )
+{
+    instance_destroy();
 }
 
 </string>
@@ -151,7 +159,10 @@ switch(state)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_destroy();
+            <string>    state = DEAD;
+    image_speed = 0.3;
+    sprite_index = sprPlayerDeath;
+
 </string>
           </argument>
         </arguments>
