@@ -44,7 +44,7 @@ if(hsp!=0)
         sprite_index = sprPlayerLeft;
     }
 } 
-else if(place_meeting(x,y,objFinalDoor) && (keyboard_check(ord('E'))|| (gamepad_button_check(gn,gp_face4))) && image_index<=4)
+else if(place_meeting(x,y,objFinalDoor) && (keyboard_check(ord('E'))|| (gamepad_button_check(gn,gp_face4))) && image_index<4)
 {
     hsp=0;
     sprite_index=spr_playerDoor

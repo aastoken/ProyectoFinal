@@ -17,12 +17,17 @@
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>32</width>
+  <width>44</width>
   <height>48</height>
   <frames>
     <frame index="0">images\sprPlayerDeath_0.png</frame>
     <frame index="1">images\sprPlayerDeath_1.png</frame>
     <frame index="2">images\sprPlayerDeath_2.png</frame>
     <frame index="3">images\sprPlayerDeath_3.png</frame>
+    <frame index="4">images\sprPlayerDeath_4.png</frame>
+    <frame index="5">images\sprPlayerDeath_5.png</frame>
+    <frame index="6">images\sprPlayerDeath_6.png</frame>
+    <frame index="7">images\sprPlayerDeath_7.png</frame>
+    <frame index="8">images\sprPlayerDeath_8.png</frame>
   </frames>
 </sprite>
