@@ -7,19 +7,19 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>3</bbox_left>
-  <bbox_right>270</bbox_right>
-  <bbox_top>2</bbox_top>
-  <bbox_bottom>57</bbox_bottom>
+  <bbox_left>20</bbox_left>
+  <bbox_right>45</bbox_right>
+  <bbox_top>26</bbox_top>
+  <bbox_bottom>33</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>280</width>
+  <width>120</width>
   <height>64</height>
   <frames>
-    <frame index="0">images\spr_tut3_0.png</frame>
+    <frame index="0">images\spr_tut6_0.png</frame>
   </frames>
 </sprite>

@@ -30,6 +30,7 @@
       <sprite>sprites\spr_playerTeleportOut</sprite>
       <sprite>sprites\spr_playerBell</sprite>
       <sprite>sprites\spr_playerDoor</sprite>
+      <sprite>sprites\spr_playerDoorOut</sprite>
       <sprite>sprites\sprPlayerDeath</sprite>
     </sprites>
     <sprites name="Scenario">
@@ -45,6 +46,7 @@
       <sprite>sprites\sprLava</sprite>
       <sprite>sprites\spr_spikes</sprite>
       <sprite>sprites\spr_invisibleBlock</sprite>
+      <sprite>sprites\spr_door</sprite>
     </sprites>
     <sprites name="Bullets">
       <sprite>sprites\sprVoltMiddle</sprite>
@@ -72,6 +74,10 @@
       <sprite>sprites\spr_tut3</sprite>
       <sprite>sprites\spr_tut4</sprite>
       <sprite>sprites\spr_tut5</sprite>
+      <sprite>sprites\spr_tut6</sprite>
+      <sprite>sprites\spr_tut7</sprite>
+      <sprite>sprites\spr_tut8</sprite>
+      <sprite>sprites\spr_tut9</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -113,6 +119,7 @@
       <object>objects\obj_button</object>
       <object>objects\obj_metalDoor</object>
       <object>objects\obj_teleport</object>
+      <object>objects\obj_door</object>
     </objects>
     <objects name="Enemies">
       <object>objects\objEnemyStone</object>
@@ -142,15 +149,21 @@
       <object>objects\obj_tut2</object>
       <object>objects\obj_tut3</object>
       <object>objects\obj_tut4</object>
-      <object>objects\pbj_tut5</object>
+      <object>objects\obj_tut5</object>
+      <object>objects\obj_tut6</object>
+      <object>objects\obj_tut7</object>
+      <object>objects\obj_tut8</object>
+      <object>objects\obj_tut9</object>
     </objects>
     <object>objects\obj_counterClock</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\tutorial1</room>
+    <room>rooms\tutorial2</room>
+    <room>rooms\tutorial3</room>
     <room>rooms\roomMenu</room>
     <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
-    <room>rooms\Tutorial</room>
   </rooms>
   <constants number="6">
     <constant name="DEAD">10</constant>

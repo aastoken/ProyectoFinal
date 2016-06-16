@@ -76,7 +76,7 @@
     <instance objName="obj_Wall" x="416" y="3232" name="inst_1059E68D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="416" y="3264" name="inst_7BF7E925" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="448" y="3200" name="inst_BD9EB404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="544" y="3200" name="inst_BE490062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="528" y="3200" name="inst_BE490062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGameManager" x="64" y="64" name="inst_F5294738" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="768" y="3136" name="inst_7CEF444E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="640" y="3040" name="inst_310AC001" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -150,7 +150,7 @@
     <instance objName="obj_Wall" x="928" y="3488" name="inst_66AEC68D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="960" y="3488" name="inst_3EED89F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="992" y="3488" name="inst_B211F606" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="768" y="3264" name="inst_B68105C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="784" y="3264" name="inst_B68105C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="995" y="3493" name="inst_542C4836" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="896" y="3424" name="inst_62C81ADF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1024" y="3136" name="inst_4E4E4214" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -252,14 +252,14 @@
     <instance objName="obj_Wall" x="1920" y="3232" name="inst_33B215A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1952" y="3232" name="inst_5698ECC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2016" y="3232" name="inst_3872508A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="1376" y="3328" name="inst_4B2A1BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="1326" y="3345" name="inst_4B2A1BEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="1888" y="3360" name="inst_8E6E381A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="2048" y="3456" name="inst_684EAD04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2016" y="3456" name="inst_E1DAF782" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2080" y="3456" name="inst_2A698D60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_teleport" x="1936" y="3482" name="inst_3E77808E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_SpinningBlade" x="2080" y="3264" name="inst_8DEA8B68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="1856" y="3328" name="inst_889E878D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="1871" y="3339" name="inst_889E878D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1856" y="3456" name="inst_9BE9014D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1856" y="3424" name="inst_94FECE62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1856" y="3392" name="inst_291BFA97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -305,7 +305,7 @@
     <instance objName="obj_spikes" x="2880" y="3456" name="inst_C5131803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2912" y="3456" name="inst_F56C2EE4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2944" y="3456" name="inst_187E49C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2560" y="3296" name="inst_392EB932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2492" y="3399" name="inst_392EB932" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1664" y="3200" name="inst_7C0849F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1664" y="3168" name="inst_F42F4BD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1664" y="3136" name="inst_FEA01CFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -322,12 +322,12 @@
     <instance objName="obj_SpinningBlade" x="2494" y="3114" name="inst_6EFE323B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2336" y="3104" name="inst_06F65B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2304" y="3136" name="inst_4FE2F9E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objHorizontalShootingAI" x="2976" y="3392" name="inst_5C90D3BF" locked="0" code="angle = 180;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objHorizontalShootingAI" x="2976" y="3376" name="inst_5C90D3BF" locked="0" code="angle = 180;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2976" y="3456" name="inst_3587D913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2976" y="3424" name="inst_5F2747B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2992" y="3392" name="inst_58E578BF" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2992" y="3360" name="inst_C16F5192" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall" x="2976" y="3328" name="inst_7C1D9B52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall" x="2992" y="3328" name="inst_7C1D9B52" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2976" y="3296" name="inst_9C04CDC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2976" y="3264" name="inst_1254CD54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2976" y="3232" name="inst_44BE6407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -623,7 +623,7 @@
     <instance objName="obj_spikes" x="1120" y="2432" name="inst_D5CD76DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="672" y="2240" name="inst_03DD2D04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="992" y="2240" name="inst_0C2247E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="1088" y="2208" name="inst_720C7703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button" x="1072" y="2208" name="inst_720C7703" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="768" y="2208" name="inst_26126AD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1056" y="2432" name="inst_2F8D9374" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1024" y="2432" name="inst_CED6B25E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1022,9 +1022,9 @@
     <instance objName="obj_Wall" x="2816" y="2016" name="inst_854862D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2848" y="2016" name="inst_816F54C1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2880" y="2016" name="inst_11CC617E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2793" y="2592" name="inst_2EC25A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2770" y="2240" name="inst_4F46ADF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2048" y="2304" name="inst_34E20A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2817" y="2620" name="inst_2EC25A90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2769" y="2256" name="inst_4F46ADF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2048" y="2306" name="inst_34E20A19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2032" y="2320" name="inst_8B9CB974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1472" y="2432" name="inst_036BC2D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1504" y="2432" name="inst_6BC96D63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1046,7 +1046,7 @@
     <instance objName="obj_spikes" x="2016" y="2432" name="inst_95B111CE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2048" y="2432" name="inst_C70726D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="608" y="2336" name="inst_3F3A71F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2912" y="2816" name="inst_4D764096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2932" y="2821" name="inst_4D764096" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="64" y="2208" name="inst_488BF843" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="736" y="2080" name="inst_B7749DC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="608" y="2432" name="inst_804949B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1171,7 +1171,7 @@
     <instance objName="obj_Wall" x="1088" y="2368" name="inst_7F62B0A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1088" y="2400" name="inst_E9A9B114" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="1088" y="2432" name="inst_45C2E2C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="1127" y="2197" name="inst_ED1A0707" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="1112" y="2220" name="inst_ED1A0707" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2752" y="2368" name="inst_F49DAB7B" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2784" y="2464" name="inst_FC0B6EA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2848" y="2400" name="inst_3762EE3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1182,7 +1182,7 @@
     <instance objName="objRoomPuzzleFrame" x="1088" y="608" name="inst_D78D9EF9" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleFrame" x="1120" y="1376" name="inst_21403CAB" locked="0" code="" scaleX="24" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleFrame" x="1888" y="608" name="inst_DAE16DB0" locked="0" code="" scaleX="1" scaleY="24" colour="4294967295" rotation="0"/>
-    <instance objName="objCheckPoint" x="2560" y="3072" name="inst_2A21606C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objCheckPoint" x="2592" y="3072" name="inst_2A21606C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2752" y="2528" name="inst_9EBB508E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzle" x="1216" y="704" name="inst_FC4E9F97" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzle" x="1408" y="704" name="inst_7B3085EC" locked="0" code="" scaleX="3" scaleY="3" colour="4294967295" rotation="0"/>
@@ -1412,10 +1412,6 @@
     <instance objName="objEnemy" x="2272" y="2272" name="inst_58EA4D60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objEnemy" x="2628" y="2272" name="inst_877CBFA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2176" y="2288" name="inst_772C63C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tut1" x="160" y="3328" name="inst_77FD90D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tut2" x="1088" y="3408" name="inst_6BE63F14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tut3" x="2305" y="3246" name="inst_AEE22FF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_tut4" x="2784" y="2768" name="inst_D8A2AEAA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleBlock" x="2464" y="2784" name="inst_41A298C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleBlock" x="2464" y="2816" name="inst_D8F87E32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleBlock" x="2496" y="2816" name="inst_F3FC49F4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1790,7 +1786,6 @@
     <instance objName="obj_Wall" x="480" y="896" name="inst_9F4A3AD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="448" y="896" name="inst_5EFD10B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="416" y="896" name="inst_5BFF8DFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="pbj_tut5" x="416" y="800" name="inst_069CB45D" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="896" name="inst_1E02ACD1" locked="0" code="" scaleX="1" scaleY="14.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="1360" name="inst_A7AFF37B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="384" y="1392" name="inst_3B11A8EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2085,7 +2080,7 @@
     <instance objName="obj_Wall" x="2944" y="672" name="inst_2779942C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="2720" y="608" name="inst_FB222D04" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_trapdoor" x="2848" y="608" name="inst_9BCB56BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_button" x="2688" y="576" name="inst_774E4020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_button" x="2704" y="576" name="inst_774E4020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_button" x="2944" y="576" name="inst_CC69A638" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2720" y="672" name="inst_C567F1E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="2752" y="672" name="inst_6108249A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2390,7 +2385,35 @@
     <instance objName="obj_SpinningBlade" x="1280" y="1888" name="inst_62BCAE4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="2735" y="476" name="inst_EB53E588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCheckPoint" x="2720" y="864" name="inst_DFF28366" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="1360" y="400" name="inst_BD5841F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="65" y="3486" name="inst_BD5841F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="1920" y="1376" name="inst_6BB526C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="1312" name="inst_48FFEA9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="1248" name="inst_00A255C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="1184" name="inst_A18E0BB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="1120" name="inst_C4FD5D83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="1056" name="inst_4D3CF736" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="992" name="inst_99F116EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="928" name="inst_E0E15051" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="864" name="inst_E5480C6E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="672" name="inst_8414F229" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1120" y="1280" name="inst_149B2072" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="1216" name="inst_01530C0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="1152" name="inst_CCCE1771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="1088" name="inst_CDB5D106" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="1024" name="inst_EFC68301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="960" name="inst_07B55B15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1120" y="896" name="inst_1D6D45B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1920" y="800" name="inst_54404A68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1920" y="736" name="inst_2DC6FE39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="1120" y="1344" name="inst_61E044A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_spikes" x="1920" y="608" name="inst_D8C86594" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_spikes" x="960" y="864" name="inst_8F476F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="928" y="864" name="inst_D06C47CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="896" y="864" name="inst_542869BD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="864" y="864" name="inst_074C1348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="832" y="864" name="inst_84BBEF87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spikes" x="1056" y="864" name="inst_1B9A119E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="48" y="3424" name="inst_EFF6E3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -4537,7 +4560,6 @@
     <tile bgName="bgGame" x="1376" y="1440" w="32" h="32" xo="0" yo="32" id="10005062" name="inst_925F452F" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="1344" y="1440" w="32" h="32" xo="0" yo="32" id="10005063" name="inst_2074541F" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="128" y="2528" w="32" h="32" xo="32" yo="32" id="10005120" name="inst_1230DD77" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="2976" w="32" h="32" xo="32" yo="32" id="10005122" name="inst_9289CDDE" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="896" y="1504" w="32" h="32" xo="96" yo="96" id="10005146" name="inst_8DED0D17" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="864" y="1504" w="32" h="32" xo="64" yo="96" id="10005147" name="inst_3C6BE05C" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="832" y="1504" w="32" h="32" xo="96" yo="96" id="10005148" name="inst_F73B2F4D" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -4973,7 +4995,7 @@
     <tile bgName="bgGame" x="416" y="3168" w="32" h="32" xo="96" yo="0" id="10005663" name="inst_E38004CB" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="3136" w="32" h="32" xo="96" yo="0" id="10005664" name="inst_2C3B73C8" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="416" y="3104" w="32" h="32" xo="96" yo="0" id="10005667" name="inst_BE9AFE4D" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="416" y="3072" w="32" h="32" xo="96" yo="256" id="10005668" name="inst_D47202F1" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="416" y="3088" w="32" h="32" xo="96" yo="256" id="10005668" name="inst_D47202F1" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2752" y="2336" w="32" h="32" xo="64" yo="64" id="10006264" name="inst_5908DB47" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2720" y="2336" w="32" h="32" xo="64" yo="64" id="10006265" name="inst_69708750" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2688" y="2336" w="32" h="32" xo="64" yo="64" id="10006266" name="inst_E6F8C3E0" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -5231,6 +5253,8 @@
     <tile bgName="bgGame" x="2912" y="1152" w="32" h="32" xo="32" yo="32" id="10007716" name="inst_7B0978D9" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2912" y="1120" w="32" h="32" xo="32" yo="32" id="10007717" name="inst_C281423F" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2944" y="1120" w="32" h="32" xo="32" yo="32" id="10007718" name="inst_DE4840E0" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="416" y="2976" w="32" h="32" xo="224" yo="224" id="10007945" name="inst_26D146A1" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bgGame" x="416" y="3072" w="32" h="32" xo="224" yo="224" id="10007947" name="inst_00E6E60C" depth="-200" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
