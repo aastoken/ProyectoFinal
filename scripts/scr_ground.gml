@@ -43,9 +43,9 @@ if(hsp!=0)
         sprite_index = sprPlayerLeft;
     }
 } 
-else if(place_meeting(x,y,objFinalDoor)  && (keyboard_check(ord('E'))|| (gamepad_button_check(gn,gp_face4))) && image_index<=4)
+else if(place_meeting(x,y,objFinalDoor) && key_interact )
 {
-    door = instance_position(x,y,obj_door);//id of the instance we re hitting
+    door = instance_position(x,y,objFinalDoor);//id of the instance we re hitting
     if ( door != noone){
         if ( !door.closed ){
             hsp=0;

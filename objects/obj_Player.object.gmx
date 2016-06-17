@@ -3,7 +3,7 @@
   <spriteName>sprPlayerRight</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-5</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -127,7 +127,7 @@ switch(state)
                     break;
     case STAIR:     scr_stair();
                     break;
-    default:        show_debug_message("DEAD");
+    default:        //DEAD CHARACTER
                     break;
 }
 

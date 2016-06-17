@@ -66,6 +66,7 @@ if(player == noone )
     deadCount += 1;
 }
 
+//In case player gets stuck
 if(keyboard_check_pressed(ord('R'))|| (gamepad_button_check_pressed(obj_Player.gn,gp_select)))
 {
     with(player)

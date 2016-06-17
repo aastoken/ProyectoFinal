@@ -59,15 +59,14 @@
       <sprite>sprites\sprRoomPuzzleBlock</sprite>
       <sprite>sprites\sprRoomPuzzleController</sprite>
     </sprites>
-    <sprite>sprites\sprEnemy</sprite>
-    <sprite>sprites\sprEnemyStone</sprite>
-    <sprite>sprites\sprNumbers</sprite>
-    <sprite>sprites\sprCheckPoint</sprite>
-    <sprite>sprites\sprHorizontalShootingEnemy</sprite>
-    <sprite>sprites\spr_SpinningBlade</sprite>
-    <sprite>sprites\sprMagmaEnemy</sprite>
-    <sprite>sprites\sprSolidMagmaEnemy</sprite>
-    <sprite>sprites\sprFinalDoor</sprite>
+    <sprites name="Enemies">
+      <sprite>sprites\sprEnemy</sprite>
+      <sprite>sprites\sprHorizontalShootingEnemy</sprite>
+      <sprite>sprites\sprEnemyStone</sprite>
+      <sprite>sprites\sprMagmaEnemy</sprite>
+      <sprite>sprites\spr_SpinningBlade</sprite>
+      <sprite>sprites\sprSolidMagmaEnemy</sprite>
+    </sprites>
     <sprites name="Tutorials">
       <sprite>sprites\spr_tut1</sprite>
       <sprite>sprites\spr_tut2</sprite>
@@ -79,6 +78,10 @@
       <sprite>sprites\spr_tut8</sprite>
       <sprite>sprites\spr_tut9</sprite>
     </sprites>
+    <sprite>sprites\sprNumbers</sprite>
+    <sprite>sprites\sprCheckPoint</sprite>
+    <sprite>sprites\sprFinalDoor</sprite>
+    <sprite>sprites\sprTrophy</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgStartMenu</background>
@@ -103,6 +106,7 @@
     <script>scripts\scr_collisions.gml</script>
     <script>scripts\scrMgrBgSound.gml</script>
     <script>scripts\scr_trapdoor.gml</script>
+    <script>scripts\get_time.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="menu">

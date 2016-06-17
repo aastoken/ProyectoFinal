@@ -4,7 +4,7 @@ switch (menu[option]){
     case "Start":
         if (audio_is_playing(soundMenu))
             audio_stop_sound(soundMenu);
-        room_goto(tutorial1);
+        room_goto(MainRoom);
         break;
 
     case "Options":
