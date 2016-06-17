@@ -52,9 +52,11 @@ anim = 0;
             <string>if ( place_meeting(x,y,obj_Player) )
 {
     enableMove = true;
+    objFinalDoor.enableCount = false;
 }
 else
 {
+    objFinalDoor.enableCount = true;
     enableMove = false;
 }
 </string>

@@ -30,6 +30,7 @@ arrived = false;
 closed = true;      //Closed door
 
 //Time counter
+enableCount = true;
 frames = 0;
 time = 0;
 
@@ -127,7 +128,7 @@ if (arrived)
 }
 
 //Calculate how much time took the player to finish the game
-if ( !objRoomPuzzleController.enableMove &amp;&amp; closed )
+if ( enableCount &amp;&amp; closed )
 {
     frames += 1;
     frames = frames%room_speed;
