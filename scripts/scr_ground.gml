@@ -1,8 +1,7 @@
-
 //Direction we're pressing
 hdir = key_right - key_left;
 
-//Acceleration
+//Acceleration + sprinting
 difSpeedX = hdir*(topSpeed + key_run*runSpeed ) - hsp;
 difSpeedX = clamp(difSpeedX,-acceleration,acceleration);
 hsp += difSpeedX;
@@ -44,11 +43,16 @@ if(hsp!=0)
         sprite_index = sprPlayerLeft;
     }
 } 
-else if(place_meeting(x,y,objFinalDoor) && (keyboard_check(ord('E'))|| (gamepad_button_check(gn,gp_face4))) && image_index<=4)
+else if(place_meeting(x,y,objFinalDoor)  && (keyboard_check(ord('E'))|| (gamepad_button_check(gn,gp_face4))) && image_index<=4)
 {
-    hsp=0;
-    sprite_index=spr_playerDoor
-    image_index+=0.2
+    door = instance_position(x,y,obj_door);//id of the instance we re hitting
+    if ( door != noone){
+        if ( !door.closed ){
+            hsp=0;
+            sprite_index=spr_playerDoor
+            image_index+=0.2
+            }
+    }
 }
 else
 {
@@ -68,10 +72,20 @@ if( place_meeting(x,y,obj_trapdoor ) )
 //Activates the movingPuzzle
 if (place_meeting(x,y,objRoomPuzzleController ) )
 {
-    view_visible[0] = false;
-    view_visible[1] = true;
-    view_yview[1]= y - 1200;
-    view_xview[1]= x - 800;   
+    if ( room == tutorial3 ) //Set up is different in tutorial3
+    {
+        view_visible[0] = false;
+        view_visible[1] = true;
+        view_yview[1]= y - 600;
+        view_xview[1]= x - 250;
+    }
+    else
+    {
+        view_visible[0] = false;
+        view_visible[1] = true;
+        view_yview[1]= y - 1200;
+        view_xview[1]= x - 800; 
+    }  
 }
 else
 {

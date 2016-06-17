@@ -2413,7 +2413,7 @@
     <instance objName="obj_spikes" x="864" y="864" name="inst_074C1348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="832" y="864" name="inst_84BBEF87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1056" y="864" name="inst_1B9A119E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door" x="48" y="3424" name="inst_EFF6E3A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door" x="48" y="3424" name="inst_EFF6E3A5" locked="0" code="spawnDoor = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

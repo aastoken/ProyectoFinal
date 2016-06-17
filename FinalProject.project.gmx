@@ -158,14 +158,15 @@
     <object>objects\obj_counterClock</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\roomMenu</room>
+    <room>rooms\roomOptions</room>
     <room>rooms\tutorial1</room>
     <room>rooms\tutorial2</room>
     <room>rooms\tutorial3</room>
-    <room>rooms\roomMenu</room>
-    <room>rooms\roomOptions</room>
     <room>rooms\MainRoom</room>
   </rooms>
-  <constants number="6">
+  <constants number="7">
+    <constant name="DOOR">4</constant>
     <constant name="DEAD">10</constant>
     <constant name="GRAVITY">3</constant>
     <constant name="GROUND">0</constant>
