@@ -30,7 +30,6 @@ arrived = false;
 closed = true;      //Closed door
 
 //Time counter
-enableCount = true;
 frames = 0;
 time = 0;
 
@@ -76,7 +75,8 @@ else    //Copper
 draw_sprite(sprTrophy,trophy,20,20);
 //Draws the time ( min:secs)
 draw_text(50,20,string(floor(time/60))+":"+string(time%60));
-            
+draw_set_colour(c_green);
+draw_text(90,20,"ENABLE COUNT:"+string(enableCount));            
 </string>
           </argument>
         </arguments>
@@ -128,7 +128,7 @@ if (arrived)
 }
 
 //Calculate how much time took the player to finish the game
-if ( enableCount &amp;&amp; closed )
+if ( (view_current == 0) &amp;&amp; closed )
 {
     frames += 1;
     frames = frames%room_speed;

@@ -581,7 +581,7 @@
     <instance objName="objRoomPuzzleFrame" x="2176" y="2336" name="inst_85B9FAEB" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleFrame" x="2144" y="2368" name="inst_1E682E86" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleFrame" x="2176" y="2944" name="inst_2AEDED30" locked="0" code="" scaleX="18" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objRoomPuzzleController" x="2816" y="2976" name="inst_F05CCB7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomPuzzleController" x="2825" y="2971" name="inst_F05CCB7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2112" y="2464" name="inst_E7074053" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoomPuzzleFrame" x="2752" y="2368" name="inst_C8524417" locked="0" code="" scaleX="1" scaleY="18" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="2752" y="2720" name="inst_18CDF19C" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
@@ -2413,7 +2413,7 @@
     <instance objName="obj_spikes" x="832" y="864" name="inst_84BBEF87" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spikes" x="1056" y="864" name="inst_1B9A119E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door" x="48" y="3424" name="inst_EFF6E3A5" locked="0" code="spawnDoor = true;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="62" y="3484" name="inst_4F055980" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="67" y="3484" name="inst_893685BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bgGame" x="0" y="3296" w="32" h="32" xo="32" yo="32" id="10001837" name="inst_93CCF495" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -3278,7 +3278,6 @@
     <tile bgName="bgGame" x="2624" y="2976" w="32" h="32" xo="0" yo="32" id="10005815" name="inst_27E4AD0B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2592" y="2976" w="32" h="32" xo="0" yo="32" id="10005816" name="inst_7D4BFD86" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2944" y="2976" w="32" h="32" xo="0" yo="32" id="10005818" name="inst_927CDE5D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bgGame" x="2816" y="2944" w="32" h="32" xo="0" yo="32" id="10005819" name="inst_4564139A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2528" y="2976" w="32" h="32" xo="0" yo="32" id="10005820" name="inst_83DF6D79" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2496" y="2976" w="32" h="32" xo="0" yo="32" id="10005821" name="inst_A873606D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bgGame" x="2464" y="2976" w="32" h="32" xo="0" yo="32" id="10005822" name="inst_222E7CEB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

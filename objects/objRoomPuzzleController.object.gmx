@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>enableMove = false;
-anim = 0;
+
 </string>
           </argument>
         </arguments>
@@ -49,16 +49,12 @@ anim = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if ( place_meeting(x,y,obj_Player) )
-{
+            <string>//Enable the movement of the puzzle if the player touches the controller
+if ( place_meeting(x,y,obj_Player) )
     enableMove = true;
-    objFinalDoor.enableCount = false;
-}
 else
-{
-    objFinalDoor.enableCount = true;
     enableMove = false;
-}
+
 </string>
           </argument>
         </arguments>
